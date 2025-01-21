@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b01d6814-b2fb-4427-b225-ebed285d6b78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SheetAdmin/admin_GET.java" afterDir="false" />
-    </list>
+    <list default="true" id="b01d6814-b2fb-4427-b225-ebed285d6b78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,18 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Dharma-Coder"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dharma-Coder&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Dharma-Coder/API_SG.git",
-    "accountId": "4cbd4a65-e66a-40b3-a2f5-0fb16f87901f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dharma-Coder/API_SG.git&quot;,
+    &quot;accountId&quot;: &quot;4cbd4a65-e66a-40b3-a2f5-0fb16f87901f&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/Base/BaseClass.java" root0="SKIP_INSPECTION" />
   </component>
@@ -55,89 +44,89 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Authentication.VerifyOtp.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Authentication.cluster_ownership_details_by_forest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BaseClass.PatchUser.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BaseClass.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BaseClass.getToken.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BaseTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BaseTest.getToken.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/hp/IdeaProjects/untitled6/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Cluster_Accounting.CheckGiftingEligibility.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Cluster_Accounting.HoldingsLedger.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Cluster_Accounting.clusterStatus.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Cluster_Accounting.giftingStatus.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Cluster_Accounting.transactionLedger.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_User.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_User.usersDetails.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetGetAllUserData.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetUser.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetUserActivities.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetUserDetails.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetUserHistory.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetUserInterests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetUserLevel.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetUserLevels.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.GetUserType.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.Users.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Patch_Users.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SacredGroves_Sutra_APIs.clusterDetails.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SacredGroves_Sutra_APIs.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SacredGroves_Sutra_APIs.mapCluster.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SacredGroves_Sutra_APIs.sutraMapForest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.AdminLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.Delete_User.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.GetAllUsers.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.GetAllUsersWithAmount.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.GetParticularUserDetails.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.POST_Send_Invite.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.Squads.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.activities.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.grovepoints.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Admin1.Squads.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Analytics.GET.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Analytics.POST.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Analytics.TotalClustersGuard.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Analytics.Usd.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Analytics.Use.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Analytics.Used.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Analytics.Users.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sacred_Analytics.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.User_API.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.Cards.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.GetMapsAPI.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.GiftSgcs.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.forestclusterdetails.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.forestdetails.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.getCity.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.getCounties.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.getCountries.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.getCountry.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.getGiftSend.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.getState.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.getStates.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.giftAble.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.history.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.paymentSession.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.squadClusters.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.squadCluters.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.transactionLedger.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.updateUserPrivacySettings.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.sacredSecond.usersDetails.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Authentication.VerifyOtp.executor": "Run",
+    "TestNG.Authentication.cluster_ownership_details_by_forest.executor": "Run",
+    "TestNG.BaseClass.PatchUser.executor": "Run",
+    "TestNG.BaseClass.executor": "Run",
+    "TestNG.BaseClass.getToken.executor": "Run",
+    "TestNG.BaseTest.executor": "Run",
+    "TestNG.BaseTest.getToken.executor": "Run",
+    "TestNG.C:/Users/hp/IdeaProjects/untitled6/testng.xml.executor": "Run",
+    "TestNG.Cluster_Accounting.CheckGiftingEligibility.executor": "Run",
+    "TestNG.Cluster_Accounting.HoldingsLedger.executor": "Run",
+    "TestNG.Cluster_Accounting.clusterStatus.executor": "Run",
+    "TestNG.Cluster_Accounting.giftingStatus.executor": "Run",
+    "TestNG.Cluster_Accounting.transactionLedger.executor": "Run",
+    "TestNG.Patch_User.executor": "Run",
+    "TestNG.Patch_User.usersDetails.executor": "Run",
+    "TestNG.Patch_Users.GetGetAllUserData.executor": "Run",
+    "TestNG.Patch_Users.GetUser.executor": "Run",
+    "TestNG.Patch_Users.GetUserActivities.executor": "Run",
+    "TestNG.Patch_Users.GetUserDetails.executor": "Run",
+    "TestNG.Patch_Users.GetUserHistory.executor": "Run",
+    "TestNG.Patch_Users.GetUserInterests.executor": "Run",
+    "TestNG.Patch_Users.GetUserLevel.executor": "Run",
+    "TestNG.Patch_Users.GetUserLevels.executor": "Run",
+    "TestNG.Patch_Users.GetUserType.executor": "Run",
+    "TestNG.Patch_Users.Users.executor": "Run",
+    "TestNG.Patch_Users.executor": "Run",
+    "TestNG.SacredGroves_Sutra_APIs.clusterDetails.executor": "Run",
+    "TestNG.SacredGroves_Sutra_APIs.executor": "Run",
+    "TestNG.SacredGroves_Sutra_APIs.mapCluster.executor": "Run",
+    "TestNG.SacredGroves_Sutra_APIs.sutraMapForest.executor": "Run",
+    "TestNG.Sacred_Admin.AdminLogin.executor": "Run",
+    "TestNG.Sacred_Admin.Delete_User.executor": "Run",
+    "TestNG.Sacred_Admin.GetAllUsers.executor": "Run",
+    "TestNG.Sacred_Admin.GetAllUsersWithAmount.executor": "Run",
+    "TestNG.Sacred_Admin.GetParticularUserDetails.executor": "Run",
+    "TestNG.Sacred_Admin.POST_Send_Invite.executor": "Run",
+    "TestNG.Sacred_Admin.Squads.executor": "Run",
+    "TestNG.Sacred_Admin.activities.executor": "Run",
+    "TestNG.Sacred_Admin.executor": "Run",
+    "TestNG.Sacred_Admin.grovepoints.executor": "Run",
+    "TestNG.Sacred_Admin.test.executor": "Run",
+    "TestNG.Sacred_Admin1.Squads.executor": "Run",
+    "TestNG.Sacred_Analytics.GET.executor": "Run",
+    "TestNG.Sacred_Analytics.POST.executor": "Run",
+    "TestNG.Sacred_Analytics.TotalClustersGuard.executor": "Run",
+    "TestNG.Sacred_Analytics.Usd.executor": "Run",
+    "TestNG.Sacred_Analytics.Use.executor": "Run",
+    "TestNG.Sacred_Analytics.Used.executor": "Run",
+    "TestNG.Sacred_Analytics.Users.executor": "Run",
+    "TestNG.Sacred_Analytics.executor": "Run",
+    "TestNG.User_API.executor": "Run",
+    "TestNG.sacredSecond.Cards.executor": "Run",
+    "TestNG.sacredSecond.GetMapsAPI.executor": "Run",
+    "TestNG.sacredSecond.GiftSgcs.executor": "Run",
+    "TestNG.sacredSecond.forestclusterdetails.executor": "Run",
+    "TestNG.sacredSecond.forestdetails.executor": "Run",
+    "TestNG.sacredSecond.getCity.executor": "Run",
+    "TestNG.sacredSecond.getCounties.executor": "Run",
+    "TestNG.sacredSecond.getCountries.executor": "Run",
+    "TestNG.sacredSecond.getCountry.executor": "Run",
+    "TestNG.sacredSecond.getGiftSend.executor": "Run",
+    "TestNG.sacredSecond.getState.executor": "Run",
+    "TestNG.sacredSecond.getStates.executor": "Run",
+    "TestNG.sacredSecond.giftAble.executor": "Run",
+    "TestNG.sacredSecond.history.executor": "Run",
+    "TestNG.sacredSecond.paymentSession.executor": "Run",
+    "TestNG.sacredSecond.squadClusters.executor": "Run",
+    "TestNG.sacredSecond.squadCluters.executor": "Run",
+    "TestNG.sacredSecond.transactionLedger.executor": "Run",
+    "TestNG.sacredSecond.updateUserPrivacySettings.executor": "Run",
+    "TestNG.sacredSecond.usersDetails.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.SacredGroves_Sutra_APIs.clusterDetails">
     <configuration name="SacredGroves_Sutra_APIs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled6" />
