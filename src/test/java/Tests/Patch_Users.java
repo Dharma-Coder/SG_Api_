@@ -9,12 +9,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 import static io.restassured.RestAssured.given;
 
 public class Patch_Users extends BaseTest {
     String BaseURL = "https://devoutshade.sacredgroves.earth/api";
     String patchToken = "";
-    String workbook = "C:\\Users\\hp\\IdeaProjects\\untitled6\\src\\main\\resources\\Patch_Users.xlsx";
+    String workbook = new File("src/main/resources/Patch_Users.xlsx").getAbsolutePath();
 
     @BeforeClass
     public void User() {
@@ -25,10 +27,13 @@ public class Patch_Users extends BaseTest {
     public void usersDetails() {
         String path = "/users";
 
-        Response response = given()
-                .header("Authorization", "Bearer " + patchToken)
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + patchToken)
                 .get(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -52,9 +57,13 @@ public class Patch_Users extends BaseTest {
 
         System.out.println(requestBody);
 
-        Response response = given().contentType(ContentType.JSON).body(requestBody).post(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                contentType(ContentType.JSON).body(requestBody).post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
 
         if (!(response.statusCode() == 200))
@@ -66,9 +75,13 @@ public class Patch_Users extends BaseTest {
     @Test
     public void GetUserDetails() {
         String url = "https://devoutshade.sacredgroves.earth/api/users/";
-        Response response = given()
-                .header("Authorization", "Bearer " + patchToken).get(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + patchToken).
+                get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -78,9 +91,12 @@ public class Patch_Users extends BaseTest {
     @Test
     public void GetUserType() {
         String url = "https://devoutshade.sacredgroves.earth/api/users/type";
-        Response response = given()
-                .get(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -89,11 +105,14 @@ public class Patch_Users extends BaseTest {
     @Test
     public void GetUserLevel() {
         String url = "https://devoutshade.sacredgroves.earth/api/users/level";
-        Response response = given()
-                .header("Content-Type", "application/json")
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type", "application/json")
                 .param("score", 158)
                 .get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -102,9 +121,12 @@ public class Patch_Users extends BaseTest {
     @Test
     public void GetUserInterests() {
         String url = "https://devoutshade.sacredgroves.earth/api/users/interests";
-        Response response = given()
-                .get(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -113,9 +135,12 @@ public class Patch_Users extends BaseTest {
     @Test
     public void GetUserActivities() {
         String url = "https://devoutshade.sacredgroves.earth/api/users/activities";
-        Response response = given()
-                .get(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -124,9 +149,12 @@ public class Patch_Users extends BaseTest {
     @Test
     public void GetAllUserData() {
         String url = "https://devoutshade.sacredgroves.earth/api/users/get-all-users";
-        Response response = given()
-                .get(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -135,9 +163,12 @@ public class Patch_Users extends BaseTest {
     @Test
     public void GetUserLevels() {
         String url = "https://devoutshade.sacredgroves.earth/api/users/getUserLevels";
-        Response response = given()
-                .get(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -146,9 +177,12 @@ public class Patch_Users extends BaseTest {
     @Test
     public void GetUserHistory() {
         String url = "https://devoutshade.sacredgroves.earth/api/users/score/history";
-        Response response = given()
-                .header("Authorization", "Bearer " + patchToken).get(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + patchToken).get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -160,10 +194,13 @@ public class Patch_Users extends BaseTest {
         String url = "https://devoutshade.sacredgroves.earth/api/users/";
         String iD = "0067e96f-2f47-4d8f-864a-0906d54173ad";
 
-        Response response = given()
-                .header("Authorization", "Bearer " + patchToken)
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + patchToken)
                 .get(url + iD);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());

@@ -1,11 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listener.AllureLog"/>
+    </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/hp/IdeaProjects/untitled6">
         <classes>
             <class name="Base.BaseTest">
                 <methods>
                     <include name="getToken"/>
+                </methods>
+            </class>
+            <class name="Tests.SacredGroves_Sutra_APIs">
+                <methods>
+                    <include name="clusterDetails"/>
+                    <include name="clusterTrend"/>
+                    <include name="powerBi"/>
+                    <include name="mapCluster"/>
+                    <include name="sutraMapForest"/>
+                </methods>
+            </class>
+            <class name="Tests.Patch_Users">
+                <methods>
+                    <include name="usersDetails"/>
+                    <include name="Users"/>
+                    <include name="GetUserDetails"/>
+                    <include name="GetUserType"/>
+                    <include name="GetUserLevel"/>
+                    <include name="GetUserInterests"/>
+                    <include name="GetAllUserData"/>
+                    <include name="GetUserLevels"/>
+                    <include name="GetUserHistory"/>
+                    <include name="GetUser"/>
+                </methods>
+            </class>
+            <class name="Tests.Sacred_Admin">
+                <methods>
+                    <include name="GetAllUsers"/>
+                    <include name="POST_Send_Invite"/>
+                    <include name="Delete_User"/>
+                    <include name="GetAllUsersWithAmount"/>
+                    <include name="GetParticularUserDetails"/>
+                    <include name="activities"/>
+                    <include name="Squads"/>
+                    <include name="grovepoints"/>
+                </methods>
+            </class>
+            <class name="Tests.Authentication">
+                <methods>
+                    <include name="SendOtp"/>
+                    <include name="VerifyOtp"/>
+                </methods>
+            </class>
+            <class name="Tests.Cluster_Accounting">
+                <methods>
+                    <include name="clusterStatus"/>
+                    <include name="giftingStatus"/>
+                    <include name="transactionLedger"/>
+                    <include name="CheckGiftingEligibility"/>
+                    <include name="HoldingsLedger"/>
+                </methods>
+            </class>
+            <class name="Tests.Sacred_Analytics">
+                <methods>
+                    <include name="POST"/>
+                    <include name="Users"/>
+                    <include name="Use"/>
+                    <include name="Used"/>
+                    <include name="cluster_ownership_details_by_forest"/>
+                    <include name="All_forest_details"/>
+                    <include name="TotalClustersListOfGuardians"/>
+                    <include name="OwnershipDetails"/>
+                    <include name="BestAQIDetails"/>
+                    <include name="WorstAQIDetails"/>
+                    <include name="AvailableClusters"/>
+                    <include name="GlobalIndicator"/>
+                    <include name="TotalClustersGuard"/>
+                </methods>
+            </class>
+            <class name="Tests.sacredSecond">
+                <methods>
+                    <include name="usersDetails"/>
+                    <include name="GiftSgcs"/>
+                    <include name="Cards"/>
+                    <include name="giftAble"/>
+                    <include name="getGiftSend"/>
+                    <include name="updateUserPrivacySettings"/>
+                    <include name="squadClusters"/>
+                    <include name="GetMapsAPI"/>
+                    <include name="getCountries"/>
+                    <include name="getStates"/>
+                    <include name="history"/>
+                    <include name="forestclusterdetails"/>
+                    <include name="forestDetails"/>
+                    <include name="getCountry"/>
+                    <include name="getState"/>
+                    <include name="getCity"/>
+                    <include name="transactionLedger"/>
                 </methods>
             </class>
         </classes>
