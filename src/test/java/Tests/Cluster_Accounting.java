@@ -25,10 +25,18 @@ public class Cluster_Accounting extends BaseTest {
 
         String requestBody ="{\"user_id\": \"4e88f847-6608-4c44-b043-be73d89122df\"}";
 
-        Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
+
+
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
     }
@@ -38,9 +46,15 @@ public class Cluster_Accounting extends BaseTest {
 
         String requestBody ="{\"user_id\": \"4e88f847-6608-4c44-b043-be73d89122df\"}";
 
-        Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
@@ -54,6 +68,7 @@ public class Cluster_Accounting extends BaseTest {
         Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
@@ -64,9 +79,15 @@ public class Cluster_Accounting extends BaseTest {
 
         String requestBody ="{\"userId\": \"4e88f847-6608-4c44-b043-be73d89122df\", \"requestedSgc\": \"202\"}";
 
-        Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
@@ -78,9 +99,15 @@ public class Cluster_Accounting extends BaseTest {
 
         String requestBody ="{\"userId\": \"4e88f847-6608-4c44-b043-be73d89122df\" ,\"forestId\": \"UNI_GIGR_00001\"}";
 
-        Response response=given().contentType(ContentType.JSON).body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                contentType(ContentType.JSON).
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() ==200))
             Assert.fail("Expected status code is "+200+"but the actual status code is"+response.statusCode());

@@ -7,13 +7,14 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 import static io.restassured.RestAssured.given;
 
 
 
 public class Sacred_Analytics {
-
-    String workbook = "C:\\Users\\hp\\IdeaProjects\\untitled6\\src\\main\\resources\\Sacred_Analytics.xlsx";
+    String workbook = new File("src/main/resources/Sacred_Analytics.xlsx").getAbsolutePath();
     @DataProvider(name = "postReq")
     public Object[][] postReq(){
         return TestDataExtractor.ExcelData(workbook,"postReq");
@@ -37,9 +38,13 @@ public class Sacred_Analytics {
         postBody+="}";
         System.out.println(postBody);
         Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
                 header("Content-Type", "application/json").
                 body(postBody).post(api);
         System.out.println(response.statusCode());
+        response.then().log().all();
+
         response.prettyPrint();
         Assert.assertEquals(response.getStatusCode(), 200);
 
@@ -53,13 +58,17 @@ public class Sacred_Analytics {
         String requestBody = "{\"forest_id\": \"CAN_OCEA_00003\",\"page_number\": 1 }";
 
 
-        Response response = given()
-                .header("Content-Type", "application/json")
-                .body(requestBody)
-                .post(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type", "application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
+
 
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
@@ -74,19 +83,25 @@ public class Sacred_Analytics {
         String requestBody = "{\"forest_id\": \"UNI_GIGR_00001\",\"page_number\": 1 }";
 
 
-        Response response = given()
-                .header("Content-Type","application/json")
-                .body(requestBody)
-                .post(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
+//        System.out.println(response.getBody().asString());
         response.prettyPrint();
+        Assert.assertEquals(response.getStatusCode(), 200);
 
-        if (!(response.statusCode() == 200))
-            Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
+//        if (!(response.statusCode() == 200))
+//            Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
 
 
     }
+
     @Test
     public void Used(){
         String url ="https://devanalytics.sacredgroves.earth/api/clustermgmt/weather/details/view/";
@@ -94,12 +109,15 @@ public class Sacred_Analytics {
 
         String requestBody = "{\"forest_id\": \"UNI_COED_00002\",\"page_number\": 1 }";
 
-        Response response =given()
-                .header("Content-Type","application/json")
-                .body(requestBody)
-                .post(url);
+        Response response =given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
 
         if (!(response.statusCode() == 200))
@@ -113,9 +131,15 @@ public class Sacred_Analytics {
 
         String requestBody ="{\"ownership_id\": \"0067e96f-2f47-4d8f-864a-0906d54173ad\",\"page_number\": 1}";
 
-        Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
@@ -127,9 +151,15 @@ public class Sacred_Analytics {
 
         String requestBody ="{\"page_number\": 1}";
 
-        Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
@@ -141,9 +171,15 @@ public class Sacred_Analytics {
 
         String requestBody ="{\"ownership_id\": [\"0067e96f-2f47-4d8f-864a-0906d54173ad\",\"e637f040-5b32-460f-86c5-1f8a594d7adc\"], \"page_number\": 1}";
 
-        Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
@@ -155,9 +191,15 @@ public class Sacred_Analytics {
 
         String requestBody ="{\"ownership_id\": [\"0067e96f-2f47-4d8f-864a-0906d54173ad\"], \"page_number\": 1}";
 
-        Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());
@@ -168,11 +210,14 @@ public class Sacred_Analytics {
         String url ="https://devanalytics.sacredgroves.earth/api/clustermgmt/global/best/aqi/details/view/";
 
         String responseBody ="{\"top_country\":11 }";
-        Response response=given()
-                .header("Content-Type","application/json")
-                .body(responseBody)
-                .post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(responseBody).
+                post(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected Status code is "+200+" but the actual status Code is"+response.statusCode());
@@ -183,11 +228,14 @@ public class Sacred_Analytics {
         String url ="https://devanalytics.sacredgroves.earth/api/clustermgmt/global/worst/aqi/details/view/";
 
         String responseBody ="{\"top_country\":11 }";
-        Response response=given()
-                .header("Content-Type","application/json")
-                .body(responseBody)
-                .post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(responseBody).
+                post(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected Status code is "+200+" but the actual status Code is"+response.statusCode());
@@ -198,8 +246,9 @@ public class Sacred_Analytics {
     public void AvailableClusters () {
         String url = "https://devanalytics.sacredgroves.earth/api/clustermgmt/available/clusters/details/";
         Response response = given()
-                .post(url);
+                .get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected Status code is " + 200 + " but the actual status Code is" + response.statusCode());
@@ -208,9 +257,12 @@ public class Sacred_Analytics {
     @Test
     public void GlobalIndicator () {
         String url = "https://devanalytics.sacredgroves.earth/api/clustermgmt/global/indicator/details/view/";
-        Response response = given()
-                .post(url);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected Status code is " + 200 + " but the actual status Code is" + response.statusCode());
@@ -227,9 +279,15 @@ public class Sacred_Analytics {
         String url = "https://devanalytics.sacredgroves.earth/api/clustermgmt/cluster/bulk/view/by/ids/";
 
         String requestBody = "{\"ownership_id\": \""+ownership_id+"\", \"page_number\": \""+Number+"\"}";
-        Response response=given().header("Content-Type","application/json").body(requestBody).post(url);
+        Response response=given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Content-Type","application/json").
+                body(requestBody).
+                post(url);
 
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode() == 200))
             Assert.fail("Expected status code is "+200+" but the actual status code is "+response.statusCode());

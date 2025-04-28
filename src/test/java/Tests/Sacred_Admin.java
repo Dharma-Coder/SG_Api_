@@ -36,10 +36,13 @@ public class Sacred_Admin extends BaseTest {
     public void GetAllUsers() {
         String path = "/users";
 
-        Response response = given()
-                .header("Authorization", "Bearer " + TOKEN)
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + TOKEN)
                 .get(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -55,12 +58,15 @@ public class Sacred_Admin extends BaseTest {
 
         System.out.println(requestBody);
 
-        Response response = given()
-                .header("Authorization", "Bearer " + TOKEN)
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + TOKEN)
                 .contentType(ContentType.JSON)
                 .body(requestBody)
                 .post(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         Assert.assertEquals(response.getStatusCode(),200);
 
@@ -75,6 +81,7 @@ public class Sacred_Admin extends BaseTest {
                 .pathParams("id",user_id)
                 .delete(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         Assert.assertEquals(response.getStatusCode(),200);
     }
@@ -83,10 +90,13 @@ public class Sacred_Admin extends BaseTest {
     public void GetAllUsersWithAmount() {
         String path = "/users/3/0";
 
-        Response response = given()
-                .header("Authorization", "Bearer " + TOKEN)
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + TOKEN)
                 .get(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -96,11 +106,14 @@ public class Sacred_Admin extends BaseTest {
     public void GetParticularUserDetails() {
         String path = "/user/{id}";
         String user_id = "ae46383c-8e83-4bac-8968-2078f648db47";
-        Response response = given()
-                .header("Authorization", "Bearer " + TOKEN)
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + TOKEN)
                 .pathParams("id",user_id)
                 .get(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -110,10 +123,13 @@ public class Sacred_Admin extends BaseTest {
     @Test
     public void activities() {
         String path = "/activities";
-        Response response = given()
-                .header("Authorization", "Bearer " + TOKEN)
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + TOKEN)
                 .get(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -123,10 +139,13 @@ public class Sacred_Admin extends BaseTest {
     @Test
     public void Squads() {
         String path = "/squads";
-        Response response = given()
-                .header("Authorization", "Bearer " + TOKEN)
-                .get(BaseURL + path);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + TOKEN).
+                get(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
@@ -135,10 +154,13 @@ public class Sacred_Admin extends BaseTest {
     @Test
     public void grovepoints() {
         String path = "/grovepoints";
-        Response response = given()
-                .header("Authorization", "Bearer " + TOKEN)
-                .get(BaseURL + path);
+        Response response = given().
+                contentType(ContentType.JSON).
+                accept("application/json").
+                header("Authorization", "Bearer " + TOKEN).
+                get(BaseURL + path);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if (!(response.statusCode() == 200))
             Assert.fail("Expected status code is " + 200 + " but the actual status code is " + response.statusCode());
