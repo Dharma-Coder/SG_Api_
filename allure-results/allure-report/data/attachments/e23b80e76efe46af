@@ -1,0 +1,117 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 07:58:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=p%2FEwvkVoBho1jahx3QN7zS1ZDy3a%2FoDwCMx72bIvUq79a0dq1%2FQlWFoM%2Br%2FFsV6fNBaV9wXMvbGhBaybLP%2Fqh6gMPcobdcvRMt%2BOs9hwIHgxdh1%2FzLjYl5gr2iEH%2BiVy4FttzuRPrlvoa0TtdDT%2BgD8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 937503f4ae93ff67-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=17010&min_rtt=16985&rtt_var=6420&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3134&recv_bytes=908&delivery_rate=251323&cwnd=251&unsent_bytes=0&cid=571294bd239f76b6&ts=58&x=0"
+
+{
+    "aqi_details": [
+        {
+            "city": "Charleroi",
+            "country": "Belgium",
+            "date": "21/04/2025",
+            "max_AQI": 38.0,
+            "mean_AQI": 12.86,
+            "median_AQI": 1.0,
+            "min_AQI": 1.0
+        },
+        {
+            "city": "Innsbruck",
+            "country": "Austria",
+            "date": "21/04/2025",
+            "max_AQI": 2.0,
+            "mean_AQI": 2.0,
+            "median_AQI": 2.0,
+            "min_AQI": 2.0
+        },
+        {
+            "city": "Tashkent",
+            "country": "Uzbekistan",
+            "date": "21/04/2025",
+            "max_AQI": 35.0,
+            "mean_AQI": 13.67,
+            "median_AQI": 3.0,
+            "min_AQI": 3.0
+        },
+        {
+            "city": "Almaty",
+            "country": "Kazakhstan",
+            "date": "21/04/2025",
+            "max_AQI": 4.0,
+            "mean_AQI": 4.0,
+            "median_AQI": 4.0,
+            "min_AQI": 4.0
+        },
+        {
+            "city": "teborg",
+            "country": "Sweden",
+            "date": "21/04/2025",
+            "max_AQI": 6.0,
+            "mean_AQI": 4.0,
+            "median_AQI": 4.0,
+            "min_AQI": 2.0
+        },
+        {
+            "city": "Canberra",
+            "country": "Australia",
+            "date": "21/04/2025",
+            "max_AQI": 6.0,
+            "mean_AQI": 5.33,
+            "median_AQI": 5.0,
+            "min_AQI": 5.0
+        },
+        {
+            "city": "Winterthur",
+            "country": "Switzerland",
+            "date": "21/04/2025",
+            "max_AQI": 5.0,
+            "mean_AQI": 5.0,
+            "median_AQI": 5.0,
+            "min_AQI": 5.0
+        },
+        {
+            "city": "St.Gallen",
+            "country": "Switzerland",
+            "date": "21/04/2025",
+            "max_AQI": 5.0,
+            "mean_AQI": 4.33,
+            "median_AQI": 5.0,
+            "min_AQI": 3.0
+        },
+        {
+            "city": "Lille",
+            "country": "France",
+            "date": "21/04/2025",
+            "max_AQI": 27.0,
+            "mean_AQI": 9.14,
+            "median_AQI": 6.0,
+            "min_AQI": 4.0
+        },
+        {
+            "city": "Fredrikstad",
+            "country": "Norway",
+            "date": "21/04/2025",
+            "max_AQI": 7.0,
+            "mean_AQI": 6.0,
+            "median_AQI": 6.0,
+            "min_AQI": 5.0
+        },
+        {
+            "city": "Salzburg",
+            "country": "Austria",
+            "date": "21/04/2025",
+            "max_AQI": 13.0,
+            "mean_AQI": 8.0,
+            "median_AQI": 7.0,
+            "min_AQI": 4.0
+        }
+    ],
+    "status": "OK"
+}

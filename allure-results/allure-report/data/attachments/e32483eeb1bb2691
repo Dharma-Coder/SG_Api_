@@ -1,0 +1,134 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 07:58:01 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"55e-aB/SIe3X6XUjmJ1YIZdgTj5a2so"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=DCTyQ%2BGY%2F8W12dgi5nZGvoMX6BtpiJGnnYtW9%2F4StPn%2F%2Fc8ylZBHx%2FKS2vyVdK%2BzSYHKbOO6FNRd%2B72%2FWzNjgqQVLr%2BB4%2F4KwHFJA9Di4cUZLz1340QINh7gK1Ji2TY965cHl51Lbe1Qb0GVmRxFXg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9375031d0efd3fa2-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=23902&min_rtt=23818&rtt_var=9100&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=845&delivery_rate=176369&cwnd=251&unsent_bytes=0&cid=b10208a127f0e918&ts=80&x=0"
+
+{
+    "success": 1,
+    "data": [
+        {
+            "levelId": 1,
+            "level_name": "Oak",
+            "interven": 150,
+            "min": 0,
+            "max": 1500,
+            "swag": null,
+            "levelno": 1,
+            "badge": "/levels/LEVEL_01.svg"
+        },
+        {
+            "levelId": 2,
+            "level_name": "Cornflower",
+            "interven": 150,
+            "min": 1501,
+            "max": 3000,
+            "swag": null,
+            "levelno": 2,
+            "badge": "/levels/LEVEL_02.svg"
+        },
+        {
+            "levelId": 3,
+            "level_name": "Starling",
+            "interven": 200,
+            "min": 3001,
+            "max": 5000,
+            "swag": null,
+            "levelno": 3,
+            "badge": "/levels/LEVEL_03.svg"
+        },
+        {
+            "levelId": 4,
+            "level_name": "Hedgehog",
+            "interven": 250,
+            "min": 5001,
+            "max": 7500,
+            "swag": null,
+            "levelno": 4,
+            "badge": "/levels/LEVEL_04.svg"
+        },
+        {
+            "levelId": 5,
+            "level_name": "Small Tortoiseshell",
+            "interven": 250,
+            "min": 7501,
+            "max": 10000,
+            "swag": null,
+            "levelno": 5,
+            "badge": "/levels/LEVEL_05.svg"
+        },
+        {
+            "levelId": 6,
+            "level_name": "Peregrine Falcon",
+            "interven": 500,
+            "min": 10001,
+            "max": 15000,
+            "swag": null,
+            "levelno": 6,
+            "badge": "/levels/LEVEL_06.svg"
+        },
+        {
+            "levelId": 7,
+            "level_name": "Red Squirrel",
+            "interven": 500,
+            "min": 15001,
+            "max": 20000,
+            "swag": null,
+            "levelno": 7,
+            "badge": "/levels/LEVEL_07.svg"
+        },
+        {
+            "levelId": 8,
+            "level_name": "Natterjack Toad",
+            "interven": 750,
+            "min": 20001,
+            "max": 27500,
+            "swag": null,
+            "levelno": 8,
+            "badge": "/levels/LEVEL_08.svg"
+        },
+        {
+            "levelId": 9,
+            "level_name": "Scottish Wildcat",
+            "interven": 1000,
+            "min": 27501,
+            "max": 37500,
+            "swag": null,
+            "levelno": 9,
+            "badge": "/levels/LEVEL_09.svg"
+        },
+        {
+            "levelId": 10,
+            "level_name": "Water Lily",
+            "interven": 1250,
+            "min": 37501,
+            "max": 50000000,
+            "swag": null,
+            "levelno": 10,
+            "badge": "/levels/LEVEL_10.svg"
+        }
+    ]
+}
