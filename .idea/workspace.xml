@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b01d6814-b2fb-4427-b225-ebed285d6b78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Patch_Users.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Patch_Users.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,11 +143,29 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.D:/IdeaProjects/untitled6/testng.xml">
+  <component name="RunManager" selected="TestNG.Sacred_Analytics.POST">
     <configuration name="D:/IdeaProjects/untitled6/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled6" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SacredGroves_Sutra_APIs.mapCluster" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.SacredGroves_Sutra_APIs" />
+      <option name="METHOD_NAME" value="mapCluster" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -172,7 +190,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sacred_Analytics.Use" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sacred_Analytics.POST" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled6" />
       <extension name="coverage">
         <pattern>
@@ -182,7 +200,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.Sacred_Analytics" />
-      <option name="METHOD_NAME" value="Use" />
+      <option name="METHOD_NAME" value="POST" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -207,31 +225,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sacredSecond.transactionLedger" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.sacredSecond" />
-      <option name="METHOD_NAME" value="transactionLedger" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Sacred_Analytics.POST" />
+        <item itemvalue="TestNG.SacredGroves_Sutra_APIs.mapCluster" />
         <item itemvalue="TestNG.D:/IdeaProjects/untitled6/testng.xml" />
         <item itemvalue="TestNG.sacredSecond" />
         <item itemvalue="TestNG.Sacred_Admin.Login" />
-        <item itemvalue="TestNG.sacredSecond.transactionLedger" />
-        <item itemvalue="TestNG.Sacred_Analytics.Use" />
       </list>
     </recent_temporary>
   </component>
