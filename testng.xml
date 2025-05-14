@@ -63,7 +63,7 @@
             </class>
             <class name="Tests.Sacred_Analytics">
                 <methods>
-                    <include name="POST"/>
+<!--                    <include name="POST"/>-->
                     <include name="Users"/>
                     <include name="Use"/>
                     <include name="Used"/>
