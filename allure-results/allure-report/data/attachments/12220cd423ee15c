@@ -1,0 +1,62 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 07:58:06 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"23a-sYlH0fMV7zHRiVGZLBttUheuldQ"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=q4iOlTTteKu8JOKEvBa1vP4kQf0RPMF0tpEHsabCNKtrWDwOOmrxQaqWwZyiI7AnNlJ1vk39kwqSB%2BIbp6vjdvnyNjwO6x4cokoHwTjQAPO0IOTAjJuEsxI%2BYu94UyJm7%2FFkpp5pfOGdfeERqQy8ug%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 937503341ad94284-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=19085&min_rtt=19012&rtt_var=7182&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=1090&delivery_rate=227224&cwnd=245&unsent_bytes=0&cid=302116edba4e17f5&ts=1538&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "ctn": "ae46383c-8e83-4bac-8968-2078f648db47",
+        "email": "mohan@frugaltesting.com",
+        "phone_number": "+918686645841",
+        "first_name": "Mohan",
+        "middle_name": "Tester",
+        "last_name": "testing",
+        "status": "active",
+        "user_level": 199.6,
+        "score": 2407390,
+        "address": null,
+        "city": "a",
+        "state": "b",
+        "zip": null,
+        "country": "c",
+        "created_on": "2022-09-26T12:12:26.000Z",
+        "img_url": "https://thesacredgrovesafs.blob.core.windows.net/profile/profile_1698315198111.png",
+        "squads": {
+            "total": 28,
+            "admin": 20
+        },
+        "clusters": {
+            "bought": 1041,
+            "gifted": 948
+        },
+        "payed": 1146,
+        "dollar": 1050,
+        "euro": 0,
+        "pound": 120
+    }
+}

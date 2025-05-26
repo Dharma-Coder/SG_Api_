@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 07:57:59 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+X-RateLimit-Limit: 5
+X-RateLimit-Remaining: 4
+X-RateLimit-Reset: 1745827133
+ETag: W/"1f6-BRl+fABI82DQ3h67p2D0Yec+QgY"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=KEGTuGDqJ53L2PHyXd%2BCGb9Wb6jqiVxK09IW1S5GVpWJMjB3TuMxJiYmOabidv6c7BP9Q41SK8lkZ6B8staZ8O2wXnuqp2p5gFBxxxqBpwdfRYxin9nlHj6gPqjfmPPfjjbMjaaC6uScrAcGDE0oOA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 93750308bc8affa9-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=20483&min_rtt=19905&rtt_var=8620&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=927&delivery_rate=176118&cwnd=252&unsent_bytes=0&cid=88094533ba4aa606&ts=529&x=0"
+
+{
+    "success": 1,
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6ImZkZmI1ZjJjLTQzZDAtNGM5Yi04M2MwLWI3MDNiNWQ5OWQzZSIsImN0biI6ImZkZmI1ZjJjLTQzZDAtNGM5Yi04M2MwLWI3MDNiNWQ5OWQzZSIsImVtYWlsIjoiZGhhcm1hQGZydWdhbHRlc3RpbmcuY29tIiwiY291bnRyeV9jb2RlIjoiKzkxIiwicGhvbmVfbnVtYmVyIjoiOTU1MDgyMTE2NyIsInBhc3N3b3JkIjoiJDJhJDEwJERmZFZQV3J4bjRuVmFyc2FlRTl3b09LMm5wZTY1VFhmd3NRcDZldWc1ZGFjQzNzdU45Yi9TIn0sImlhdCI6MTc0NTgyNzA3OSwiZXhwIjoxNzc3MzYzMDc5fQ.seoplWYgn_jYdKVmgURexSJhBAfRLGJe6FCsdW0E4tA"
+}

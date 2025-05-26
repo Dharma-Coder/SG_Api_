@@ -1,0 +1,13 @@
+Request method:	POST
+Request URI:	https://devanalytics.sacredgroves.earth/api/clustermgmt/map/cluster/details/html/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"userId":0067e96f-2f47-4d8f-864a-0906d54173ad,"forestId":UNI_COED_00002,"iframe_height":280,"iframe_width":380,"zoom_start":17,"font_weight_head":550,"font_size_head":25,"font_weight_body":550,"font_size_body":17,"full_screen":Yes,"page_number":1}
