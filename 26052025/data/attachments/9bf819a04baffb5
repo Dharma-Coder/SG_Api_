@@ -1,0 +1,44 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 05:35:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f807ecbe033e2e-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"c7-aTf+5Xu3Nggea/yNH3ZtUFtAQzM"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=E5568E7sG79Iw1N7%2FyYF8mBymtEeyUbvxgVGDZIuFtmsoulZzr1deU72AkAefF3RQB2wwuvBZpjvlkLj5YKgWnNtf5P05K3BMGTmYWbQHTo2%2F9IZQwHo2WJiPy1eogUnR4UagXxdqvfnb10IUXGuSw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=36104&min_rtt=35586&rtt_var=14381&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=1536&delivery_rate=108731&cwnd=252&unsent_bytes=0&cid=efff1f6c19e97c24&ts=14544&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "token": "DzvrOh",
+        "sutra": {
+            "data": {
+                "status": "SUCCESS",
+                "description": "Transaction SUCCESSFULL",
+                "referralCode": "5D55D24A7F639A60A659E3348CF693D1",
+                "contractId": null
+            },
+            "status": true
+        }
+    }
+}
