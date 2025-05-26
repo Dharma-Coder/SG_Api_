@@ -1,0 +1,214 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 07:57:11 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f8d7e589bcff74-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"743-bXewk9kQ5RBbd2FAsroGnC+SI/g"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=7i5Ke8vadLUoM4DrR%2BmQb9utR%2FABKK0zznRV2xX1w3DXciQgbwzIstzKJ%2FtmZNXbnPDptW%2BBnQ%2F94FPTGwBOlujpgk0I2i9reoLrZSkfXbEgeDNstmvAkhE%2BQ%2BUFDzTPgR4zBdxap%2Bo9BAso7R%2F0gg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=30086&min_rtt=25854&rtt_var=12718&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=872&delivery_rate=167092&cwnd=252&unsent_bytes=0&cid=0f32242aa06c99ec&ts=59&x=0"
+
+{
+    "success": 1,
+    "data": [
+        {
+            "id": "1",
+            "name": "Andaman and Nicobar Islands",
+            "country_id": "101"
+        },
+        {
+            "id": "2",
+            "name": "Andhra Pradesh",
+            "country_id": "101"
+        },
+        {
+            "id": "3",
+            "name": "Arunachal Pradesh",
+            "country_id": "101"
+        },
+        {
+            "id": "4",
+            "name": "Assam",
+            "country_id": "101"
+        },
+        {
+            "id": "5",
+            "name": "Bihar",
+            "country_id": "101"
+        },
+        {
+            "id": "6",
+            "name": "Chandigarh",
+            "country_id": "101"
+        },
+        {
+            "id": "7",
+            "name": "Chhattisgarh",
+            "country_id": "101"
+        },
+        {
+            "id": "8",
+            "name": "Dadra and Nagar Haveli",
+            "country_id": "101"
+        },
+        {
+            "id": "9",
+            "name": "Daman and Diu",
+            "country_id": "101"
+        },
+        {
+            "id": "10",
+            "name": "Delhi",
+            "country_id": "101"
+        },
+        {
+            "id": "11",
+            "name": "Goa",
+            "country_id": "101"
+        },
+        {
+            "id": "12",
+            "name": "Gujarat",
+            "country_id": "101"
+        },
+        {
+            "id": "13",
+            "name": "Haryana",
+            "country_id": "101"
+        },
+        {
+            "id": "14",
+            "name": "Himachal Pradesh",
+            "country_id": "101"
+        },
+        {
+            "id": "15",
+            "name": "Jammu and Kashmir",
+            "country_id": "101"
+        },
+        {
+            "id": "16",
+            "name": "Jharkhand",
+            "country_id": "101"
+        },
+        {
+            "id": "17",
+            "name": "Karnataka",
+            "country_id": "101"
+        },
+        {
+            "id": "19",
+            "name": "Kerala",
+            "country_id": "101"
+        },
+        {
+            "id": "20",
+            "name": "Lakshadweep",
+            "country_id": "101"
+        },
+        {
+            "id": "21",
+            "name": "Madhya Pradesh",
+            "country_id": "101"
+        },
+        {
+            "id": "22",
+            "name": "Maharashtra",
+            "country_id": "101"
+        },
+        {
+            "id": "23",
+            "name": "Manipur",
+            "country_id": "101"
+        },
+        {
+            "id": "24",
+            "name": "Meghalaya",
+            "country_id": "101"
+        },
+        {
+            "id": "25",
+            "name": "Mizoram",
+            "country_id": "101"
+        },
+        {
+            "id": "26",
+            "name": "Nagaland",
+            "country_id": "101"
+        },
+        {
+            "id": "29",
+            "name": "Odisha",
+            "country_id": "101"
+        },
+        {
+            "id": "31",
+            "name": "Pondicherry",
+            "country_id": "101"
+        },
+        {
+            "id": "32",
+            "name": "Punjab",
+            "country_id": "101"
+        },
+        {
+            "id": "33",
+            "name": "Rajasthan",
+            "country_id": "101"
+        },
+        {
+            "id": "34",
+            "name": "Sikkim",
+            "country_id": "101"
+        },
+        {
+            "id": "35",
+            "name": "Tamil Nadu",
+            "country_id": "101"
+        },
+        {
+            "id": "36",
+            "name": "Telangana",
+            "country_id": "101"
+        },
+        {
+            "id": "37",
+            "name": "Tripura",
+            "country_id": "101"
+        },
+        {
+            "id": "38",
+            "name": "Uttar Pradesh",
+            "country_id": "101"
+        },
+        {
+            "id": "39",
+            "name": "Uttarakhand",
+            "country_id": "101"
+        },
+        {
+            "id": "41",
+            "name": "West Bengal",
+            "country_id": "101"
+        }
+    ]
+}

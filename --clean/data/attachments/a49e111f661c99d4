@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 07:55:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f8d608ae4885f7-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=gKqojNSRl0NI5YgHEWVRFnO9qOZ2J41RMpKGCbuLoHoQdFCBgM7oPfWtHLPHCdUZi5wCunwaLDg%2FWC3OXLpOCgTgaqsvdFat8rCON1oRz%2Bu8fyV4WtzW6lTXs6wkWmLAC%2Fh7%2Fr4SRwrU8IwA9oqvJc8%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=20028&min_rtt=19885&rtt_var=7744&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=1029&delivery_rate=205381&cwnd=248&unsent_bytes=0&cid=8341f3bbef3e8900&ts=72&x=0"
+
+{
+    "status": "Fail",
+    "status_reason": "Bad Request: Failed to decode JSON object"
+}

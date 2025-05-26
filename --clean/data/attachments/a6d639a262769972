@@ -1,0 +1,70 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 05:34:24 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f806b73af9ff74-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"2c6-8666VvHKom1gQT+wUm1DOwia19c"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Aof2VVU0ZY1jl1sFd87Ol%2B%2FUF58mRCqqobhRN2VE18hWzP%2B7YXrH9dr49OX4tKg1nFq5IesDPxMfc6gs%2BO%2FaQnA5gh1Y%2FqejxkpoSJpNsiFv%2Fa2AyHQ2jy8jH2Sd4Plp3i3TD0w7vmQMLkMcY2oUTQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=38063&min_rtt=29293&rtt_var=17249&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3131&recv_bytes=1083&delivery_rate=147475&cwnd=251&unsent_bytes=0&cid=2744a3d1c3c1fe75&ts=577&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "users": [
+            {
+                "ctn": "1896eb64-7b7e-4ea0-b936-b1a0287527da",
+                "email": "gityash2025@gmail.com",
+                "phone_number": "+919828188876",
+                "first_name": "yash",
+                "middle_name": null,
+                "last_name": "kashap",
+                "img_url": null,
+                "status": "active"
+            },
+            {
+                "ctn": "49e01e46-bff7-4983-85c4-63ee53706249",
+                "email": "testwesdrss0406@mailinator.com",
+                "phone_number": "+919511596321",
+                "first_name": "adsd",
+                "middle_name": null,
+                "last_name": "sdasd",
+                "img_url": null,
+                "status": "active"
+            },
+            {
+                "ctn": "47640f1e-3e6b-42dc-bcd2-5d195a272442",
+                "email": "gityash202533222@gmail.com",
+                "phone_number": "+919848343838",
+                "first_name": "yash",
+                "middle_name": null,
+                "last_name": "kashap",
+                "img_url": null,
+                "status": "active"
+            }
+        ],
+        "active": 1960,
+        "inactive": 4,
+        "all_users": 1964,
+        "more": 1961
+    }
+}

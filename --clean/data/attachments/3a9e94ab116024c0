@@ -1,0 +1,82 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 06:27:08 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f853f9cf6c3d54-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"378-kOTsnaj/8t2tZZf9cUweXtdh+c4"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=fiZiJUObZlpzwcaiEoXvMIKBK9%2B6swwDBv6DS5MUzAB0f%2BAezzQVKrql%2FjByA40fsO5rv%2BXs3C5yvQG3ONckMWXBaEfVtLJeAHrzFllmw58fse6WXPwu%2BFlPZkPFzPvNuZ0G5eICdKGinyPHi17HfQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=19230&min_rtt=19153&rtt_var=7337&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=1369&delivery_rate=218468&cwnd=252&unsent_bytes=0&cid=bbd596caeb7e1593&ts=220&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "user_id": "803bba50-7577-4010-a9af-85bae524959b",
+        "email": "praveenpotla@frugaltestingin.com",
+        "country_code": "+91",
+        "phone_number": "8567094319",
+        "password": "$2a$10$H7Cp1QcyoNs4KarBmWBbS.qjje5tcMbdQMupdnqNeaCSTBt/mY9aO",
+        "is_email_verified": 0,
+        "is_phone_verified": 1,
+        "o_auth": null,
+        "is_active": 1,
+        "private": 0,
+        "california_resident": 0,
+        "email_preference": 1,
+        "ctn": "803bba50-7577-4010-a9af-85bae524959b",
+        "created_on": "04/01/2024",
+        "first_name": "Dharma",
+        "middle_name": "",
+        "last_name": "Test",
+        "title": "Mr.",
+        "gender": "M",
+        "img_url": "",
+        "dob": null,
+        "score": 56890,
+        "address": "",
+        "state": "",
+        "city": "",
+        "zip": "",
+        "country": "",
+        "user_type": 1,
+        "user_level": 11,
+        "interests": [
+            
+        ],
+        "activities": [
+            
+        ],
+        "act_level": 11.6,
+        "level_details": {
+            "level_id": 10,
+            "interven": 1250,
+            "min": 37501,
+            "max": 50000000,
+            "swag": null,
+            "level_no": 10,
+            "level_name": "Water Lily",
+            "badge": "/levels/LEVEL_10.svg"
+        },
+        "squads_count": 0,
+        "owned_cluster": 13
+    }
+}

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 07:59:55 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"3a-G9KW2bYCHyaX2/y1PDitBHi5PLk"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=P5FeBm03lv7rIY3LmBCrjAKELWSRjzaPPxPLmxPhoNJakIp9mRn5Bx2XLQtSiHwYnHSnFyeBXnLMh6Ztxms2JGStU7hWUjkvIYCUPgtlAEOLtcrgS7T1UV91X3Y64GSXxE%2FtRc%2BXWH9vXIrqigpyEA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 937505e27ffe3b85-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=22678&min_rtt=18510&rtt_var=9918&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=853&delivery_rate=233387&cwnd=252&unsent_bytes=0&cid=95604af7b751b1aa&ts=69&x=0"
+
+{
+    "success": 0,
+    "message": "No maps available at the moment."
+}

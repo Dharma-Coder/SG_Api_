@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 06:28:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f855539bb0e0aa-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=9%2B0PA6u0VBU6cldWKkjMuSFEFxV8bUhW3JB65GqeZRQpxRg0uddvo9hN6EvLtGduhgW8i8MRgfuwZpmF70KZ%2BjnQ8tnBB01VI916nrLqgkzRxTy5WFQ1te54U6M7GvNzpyY4P3b5Djb3VS3%2FsGzRSPY%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=18188&min_rtt=17782&rtt_var=7481&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=956&delivery_rate=205371&cwnd=248&unsent_bytes=0&cid=c8293986dbc57feb&ts=564&x=0"
+
+{
+    "forest_weather_details": [
+        {
+            "forest_id": "UNI_COED_00002",
+            "forest_name": "Coed Rhyal",
+            "green_cover_density": 99.25,
+            "humidity": "77 %",
+            "observation_time": "2025-04-21T12:24:00Z",
+            "precipitation": "0 mm/hr",
+            "precipitation_type": "none",
+            "temperature": "12.9 Celsius",
+            "total_trees": 2092.0,
+            "visibility": "16 Kilometer",
+            "weather_code": "Mostly Clear",
+            "wind_speed": "5.7 m/s"
+        }
+    ],
+    "page_number": 1,
+    "status": "OK",
+    "total_pages": 1
+}

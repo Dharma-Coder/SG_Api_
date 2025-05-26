@@ -1,0 +1,117 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 07:58:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=RCnp4UjRwFB00Xt%2FjoqtQH6nahnESsJbTHUJS%2B%2B%2BQ9l5uzm5cd3%2Fic23jSt3o%2FKbAJ4dhW%2F23eYM1O%2BaIu7Nj6E3j0Qc9mnecwPFuscMp18xJ6CVFF6mpjyT6xC6wIvw0UNIfOaP6gATI7kiv85S5Rs%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9375041e8a2cff6d-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=27213&min_rtt=25199&rtt_var=10888&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3135&recv_bytes=910&delivery_rate=171435&cwnd=234&unsent_bytes=0&cid=1cd128bbdb8ad8ff&ts=72&x=0"
+
+{
+    "aqi_details": [
+        {
+            "city": "Žilina",
+            "country": "Slovakia",
+            "date": "21/04/2025",
+            "max_AQI": 457.0,
+            "mean_AQI": 277.0,
+            "median_AQI": 283.5,
+            "min_AQI": 42.0
+        },
+        {
+            "city": "Tianjin",
+            "country": "China",
+            "date": "21/04/2025",
+            "max_AQI": 177.0,
+            "mean_AQI": 170.69,
+            "median_AQI": 172.0,
+            "min_AQI": 157.0
+        },
+        {
+            "city": "Beijing",
+            "country": "China",
+            "date": "21/04/2025",
+            "max_AQI": 174.0,
+            "mean_AQI": 152.11,
+            "median_AQI": 160.5,
+            "min_AQI": 79.0
+        },
+        {
+            "city": "Izmir",
+            "country": "Turkey",
+            "date": "21/04/2025",
+            "max_AQI": 160.0,
+            "mean_AQI": 112.4,
+            "median_AQI": 160.0,
+            "min_AQI": 29.0
+        },
+        {
+            "city": "Chengdu",
+            "country": "China",
+            "date": "21/04/2025",
+            "max_AQI": 155.0,
+            "mean_AQI": 147.0,
+            "median_AQI": 153.0,
+            "min_AQI": 122.0
+        },
+        {
+            "city": "Palembang",
+            "country": "Indonesia",
+            "date": "21/04/2025",
+            "max_AQI": 147.0,
+            "mean_AQI": 147.0,
+            "median_AQI": 147.0,
+            "min_AQI": 147.0
+        },
+        {
+            "city": "Nanjing",
+            "country": "China",
+            "date": "21/04/2025",
+            "max_AQI": 156.0,
+            "mean_AQI": 133.27,
+            "median_AQI": 144.0,
+            "min_AQI": 89.0
+        },
+        {
+            "city": "Ahmedabad",
+            "country": "India",
+            "date": "21/04/2025",
+            "max_AQI": 161.0,
+            "mean_AQI": 130.88,
+            "median_AQI": 141.5,
+            "min_AQI": 86.0
+        },
+        {
+            "city": "Delhi",
+            "country": "India",
+            "date": "21/04/2025",
+            "max_AQI": 189.0,
+            "mean_AQI": 134.5,
+            "median_AQI": 135.0,
+            "min_AQI": 64.0
+        },
+        {
+            "city": "Madaba",
+            "country": "Jordan",
+            "date": "21/04/2025",
+            "max_AQI": 161.0,
+            "mean_AQI": 119.5,
+            "median_AQI": 124.5,
+            "min_AQI": 34.0
+        },
+        {
+            "city": "Chongqing",
+            "country": "China",
+            "date": "21/04/2025",
+            "max_AQI": 132.0,
+            "mean_AQI": 99.44,
+            "median_AQI": 106.5,
+            "min_AQI": 46.0
+        }
+    ],
+    "status": "OK"
+}

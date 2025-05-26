@@ -1,0 +1,21 @@
+HTTP/1.1 400 BAD REQUEST
+Date: Mon, 28 Apr 2025 07:58:37 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=iPqAdHry5rVJdnC4XLzE%2Fl4%2BHMB9pNBgLBhNMY2UhROpD5dLklrNJOmqAH%2FjEYio8ybaWSMPnTQvXKN61Q1RDNl%2Fv2aD0IWAcyUJ51AzBd2W31Aq7qrCOcjiaauylfN9nlBFUNCbpIDrM7O9DKGSBmc%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 937503fa8e9c3df7-BOM
+server-timing: cfL4;desc="?proto=TCP&rtt=27207&min_rtt=19400&rtt_var=12852&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3135&recv_bytes=1135&delivery_rate=222680&cwnd=202&unsent_bytes=0&cid=af0be3899cb2fe93&ts=68&x=0"
+
+<html>
+  <head>
+    <title>400 Bad Request</title>
+  </head>
+  <body>
+    <h1>Bad Request</h1>
+    <p>Failed to decode JSON object: Expecting ',' delimiter: line 1 column 12 (char 11)</p>
+  </body>
+</html>

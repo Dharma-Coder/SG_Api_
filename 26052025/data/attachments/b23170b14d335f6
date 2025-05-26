@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 08:27:33 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f9045d39dc8ee5-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=prgDpiIy%2BfzSx5TlZvhzBC5qoYFYbCd5j2yjV3j95%2F73S9wpE18%2Fh0y9OS%2B23zgtmdh1lJ6wDZjz17PI7NgaSrOrCfL3Sw8dbAa7063ILY5PSJjoDTC5NAQJZQRUeLQPOXsTi7Xq4oP0PuqWaybjTWHU"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=15416&min_rtt=15362&rtt_var=5870&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=992&delivery_rate=273400&cwnd=227&unsent_bytes=0&cid=e543c56abccf148b&ts=103&x=0"
+
+{
+    "data": {
+        "numberOfEligibleCluster": 294,
+        "status": "SUCCESS",
+        "description": "Eligible For Gifting Cluster"
+    },
+    "status": true
+}

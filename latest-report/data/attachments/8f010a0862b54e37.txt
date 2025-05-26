@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://devoutshade.sacredgroves.earth/api/admins/user/ae46383c-8e83-4bac-8968-2078f648db47
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=ae46383c-8e83-4bac-8968-2078f648db47
+Headers:		Accept=application/json
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6IkFkbWluIiwicGFzc3dvcmQiOiJGb3VuZGVyc0AxTWlsbGlvbkFjcmVzIn0sImlhdCI6MTc0NzIxMTIxOX0.HdrtNidwYdlPrF3WfqKBsRsqkb6ilkbaYzlTI6jQuPg
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

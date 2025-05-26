@@ -1,0 +1,259 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 07:58:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"16b6-sUZTvenJ6kx1pBbv9bbyLY97QeU"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=nM0nguGJnM6jwLyg3ZqI6v%2BW0sY0AO0SCrK7pzrCyAtBYnducDqWmBC7Urgteb2NhkZqL2nPLsbKWPLUYoZPxPcWaNIMxFVEJ%2FnXLwIEcQ8VFNbG4S5NepLesL731kPoMk6dccoQYTdPOtU1EpYRmw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9375042ab9ed46f5-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=19891&min_rtt=19709&rtt_var=7755&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=1352&delivery_rate=204100&cwnd=226&unsent_bytes=0&cid=a182439bc236edb8&ts=197&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "data": {
+            "contractInfoList": [
+                {
+                    "contractId": "16169",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "1",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-04-04",
+                    "updatedDttm": null,
+                    "contractCountry": "usd",
+                    "contractStartDate": "2024-04-04",
+                    "contractExpiryDate": "2034-04-04",
+                    "giftGiverId": null,
+                    "giftTakerId": null,
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "tob_846970820_1344k976012ssdadsc36",
+                    "transactionTimestamp": "2024-04-04",
+                    "statusReason": "SELF PURCHASED CONTRACT",
+                    "isEscrow": null
+                },
+                {
+                    "contractId": "16170",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "5",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-04-04",
+                    "updatedDttm": null,
+                    "contractCountry": "usd",
+                    "contractStartDate": "2024-04-04",
+                    "contractExpiryDate": "2034-04-04",
+                    "giftGiverId": null,
+                    "giftTakerId": null,
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "tob_846970820_1344k976012ssasg5sc36",
+                    "transactionTimestamp": "2024-04-04",
+                    "statusReason": "SELF PURCHASED CONTRACT",
+                    "isEscrow": null
+                },
+                {
+                    "contractId": "16171",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "1",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-04-04",
+                    "updatedDttm": null,
+                    "contractCountry": "usd",
+                    "contractStartDate": "2024-04-04",
+                    "contractExpiryDate": "2034-04-04",
+                    "giftGiverId": null,
+                    "giftTakerId": null,
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "tob_846970820_1344k976012ssasg5ssedfc36",
+                    "transactionTimestamp": "2024-04-04",
+                    "statusReason": "SELF PURCHASED CONTRACT",
+                    "isEscrow": null
+                },
+                {
+                    "contractId": "16180",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "1",
+                    "currentStatus": "TAKER_ACCEPTED",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-04-17",
+                    "updatedDttm": "2024-04-17",
+                    "contractCountry": "UAE",
+                    "contractStartDate": "2024-04-17",
+                    "contractExpiryDate": "2034-04-17",
+                    "giftGiverId": "5c41239a-0ad0-4b58-8ce7-c5f8716d20bc",
+                    "giftTakerId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "isGift": "true",
+                    "newPurchaseFlag": "N",
+                    "transactionRefNo": "tr16714555910",
+                    "transactionTimestamp": "2024-04-17",
+                    "statusReason": "TAKER ACCEPTED THE GIFT",
+                    "isEscrow": "N"
+                },
+                {
+                    "contractId": "16390",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "1",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-05-17",
+                    "updatedDttm": null,
+                    "contractCountry": "gbp",
+                    "contractStartDate": "2024-05-17",
+                    "contractExpiryDate": "2034-05-17",
+                    "giftGiverId": null,
+                    "giftTakerId": null,
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "pi_3PHPiqGIC1hNSyyz0z0Mjqty",
+                    "transactionTimestamp": "2024-05-17",
+                    "statusReason": "SELF PURCHASED CONTRACT",
+                    "isEscrow": null
+                },
+                {
+                    "contractId": "16508",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "4",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-05-22",
+                    "updatedDttm": "2025-04-28",
+                    "contractCountry": "gbp",
+                    "contractStartDate": "2024-05-22",
+                    "contractExpiryDate": "2034-05-22",
+                    "giftGiverId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "giftTakerId": "400d18a4-162b-48ec-bb1f-f67e848f627c",
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "pi_3PJCFLGIC1hNSyyz0mCUv64O",
+                    "transactionTimestamp": "2024-05-22",
+                    "statusReason": "PARTIAL ALLOCATED",
+                    "isEscrow": "P"
+                },
+                {
+                    "contractId": "16510",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "3",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-05-22",
+                    "updatedDttm": null,
+                    "contractCountry": "gbp",
+                    "contractStartDate": "2024-05-22",
+                    "contractExpiryDate": "2034-05-22",
+                    "giftGiverId": null,
+                    "giftTakerId": null,
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "pi_3PJCY9GIC1hNSyyz0sjR1Kct",
+                    "transactionTimestamp": "2024-05-22",
+                    "statusReason": "SELF PURCHASED CONTRACT",
+                    "isEscrow": null
+                },
+                {
+                    "contractId": "16511",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "1",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-05-22",
+                    "updatedDttm": null,
+                    "contractCountry": "gbp",
+                    "contractStartDate": "2024-05-22",
+                    "contractExpiryDate": "2034-05-22",
+                    "giftGiverId": null,
+                    "giftTakerId": null,
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "pi_3PJCk0GIC1hNSyyz0sTJ4Bx0",
+                    "transactionTimestamp": "2024-05-22",
+                    "statusReason": "SELF PURCHASED CONTRACT",
+                    "isEscrow": null
+                },
+                {
+                    "contractId": "16516",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "1",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-05-22",
+                    "updatedDttm": null,
+                    "contractCountry": "gbp",
+                    "contractStartDate": "2024-05-22",
+                    "contractExpiryDate": "2034-05-22",
+                    "giftGiverId": null,
+                    "giftTakerId": null,
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "tob_po820_457585k7845452014",
+                    "transactionTimestamp": "2024-05-22",
+                    "statusReason": "SELF PURCHASED CONTRACT",
+                    "isEscrow": null
+                },
+                {
+                    "contractId": "16517",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "1",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-05-22",
+                    "updatedDttm": null,
+                    "contractCountry": "gbp",
+                    "contractStartDate": "2024-05-22",
+                    "contractExpiryDate": "2034-05-22",
+                    "giftGiverId": null,
+                    "giftTakerId": null,
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "tob_po70820_848710290",
+                    "transactionTimestamp": "2024-05-22",
+                    "statusReason": "SELF PURCHASED CONTRACT",
+                    "isEscrow": null
+                },
+                {
+                    "contractId": "17104",
+                    "userId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "contractClusterDemand": "0",
+                    "currentStatus": "SUCCESS",
+                    "createdBy": "SYSTEM",
+                    "createdDttm": "2024-08-12",
+                    "updatedDttm": "2025-01-22",
+                    "contractCountry": "usd",
+                    "contractStartDate": "2024-08-12",
+                    "contractExpiryDate": "2034-08-12",
+                    "giftGiverId": "803bba50-7577-4010-a9af-85bae524959b",
+                    "giftTakerId": "400d18a4-162b-48ec-bb1f-f67e848f627c",
+                    "isGift": "false",
+                    "newPurchaseFlag": "Y",
+                    "transactionRefNo": "tob_7856325920_Abcd12082024",
+                    "transactionTimestamp": "2024-08-12",
+                    "statusReason": "PARTIAL ALLOCATED",
+                    "isEscrow": "P"
+                }
+            ]
+        },
+        "status": true
+    }
+}
