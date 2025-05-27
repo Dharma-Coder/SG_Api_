@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Date: Mon, 26 May 2025 11:12:37 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"15d-13uwPiXj+HwMBEUhTjHSLE5vY04"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=REsULjAdgOoGjommE2tdJUB1Um1Qp3dqAn%2BrLAvllFN8h2VQFJnUOICetf7qYdXdW71rhlXQkL%2FN2IkqB%2BPPwWQxJ2GrnZARFbHZ3C2scCF0uf%2FNly93PBg47DUyCAvtovR1CdVrcUxmd3Vo6g7mDA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 945cd6a6b838ff6a-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=26520&min_rtt=25985&rtt_var=7891&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=864&delivery_rate=154628&cwnd=252&unsent_bytes=0&cid=75ff00380c751a72&ts=137&x=0"
+
+{
+    "dashboard_url": "<iframe title=\"Report Section\" width=\"600\" height=\"373.5\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMDI1ZmFmNzYtYmMxMS00NmI3LWIxNmItNGU3MjE3YzExNzE4IiwidCI6ImM3MDNkZDI0LTI0NTQtNDI5ZS1iYTRhLTM4OGRiMDk3OGZjYiJ9&pageName=ReportSection5036bfe90c0c552e066e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>",
+    "status": "OK"
+}

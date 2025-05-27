@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 07:53:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f8d28baa9b3a38-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"34-CYNDnqCHBQSuETi9bagHNJY0OrY"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=3F3wyovullu7yalvUC%2Bq91e5sQTmZIJMLrgg7awhxGiS8OJR%2FfylnvU7iQn9nPmyBtIP1RBM5rS%2BFF7%2BbEiW83fJaU83hYEkIQ8Fgis8uZVZ73s%2FuTWncjYGT4NX0a7FEwNkL3%2B0XQHb%2FMOKA56Aag%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=29964&min_rtt=29948&rtt_var=11262&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3131&recv_bytes=1073&delivery_rate=143636&cwnd=252&unsent_bytes=0&cid=f2ca8739a7a28547&ts=583&x=0"
+
+{
+    "success": 1,
+    "message": "User Successfully Deleted!"
+}

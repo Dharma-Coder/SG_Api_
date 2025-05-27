@@ -1,0 +1,39 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 07:57:10 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f8d67a4a113e27-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"a7-R5TqY+naeBa6sQJacQ4bP+1I+nk"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=H4XSgb7X5jMs0%2F9TqrwBCyCU6wouf6Efc%2B1kRi4fLMsQ1TVbPni8Vjw3bRxPDggSJEN5K%2FaP2LyR9RKVzpIm3ZLSSeTnanJ7r8gm8Q%2FLdZFpE%2F2iGqJwxvHxPTreuVvxbiJG1vRIarSRfu8ahM2PSQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=22574&min_rtt=17439&rtt_var=10207&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=1380&delivery_rate=247720&cwnd=245&unsent_bytes=0&cid=00aaccf15f9a3450&ts=56912&x=0"
+
+{
+    "success": 1,
+    "message": "Eligible For Gifting Cluster",
+    "total": 12,
+    "data": {
+        "numberOfEligibleCluster": 12,
+        "status": "SUCCESS",
+        "description": "Eligible For Gifting Cluster"
+    }
+}
