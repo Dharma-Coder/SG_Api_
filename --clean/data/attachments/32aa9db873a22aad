@@ -1,0 +1,163 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 06:27:04 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f853dbabdb3f60-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"a77-COdQHB2wBaladangm014mPCJA/U"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yh9bFvVmFaqgiafsAXg2Vm%2FuB4ntQP2NcD8E2IF4pSoiXUKSGZeyUedwXZ%2BbIcGFnvb%2F%2BhQBb%2Bsj95I11qfeIMynUMVTWV%2F%2FkXlsFs4SFv3tdBcslgos1ILU%2BitjnEtv7UbDqBdEmB3y4eitHA8qZw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=19110&min_rtt=17381&rtt_var=9976&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=1391&delivery_rate=138399&cwnd=230&unsent_bytes=0&cid=ad2beb1144c2badc&ts=1229&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "projected_trend_line_details": [
+            {
+                "cumulative_carbon_sequestered_ton": 0.4728,
+                "cumulative_pollution_removal_kg": 1.3393,
+                "year": 2025
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 0.7009,
+                "cumulative_pollution_removal_kg": 1.8723,
+                "year": 2026
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 0.929,
+                "cumulative_pollution_removal_kg": 2.4053,
+                "year": 2027
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 1.1571,
+                "cumulative_pollution_removal_kg": 2.9383,
+                "year": 2028
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 1.3852,
+                "cumulative_pollution_removal_kg": 3.4713,
+                "year": 2029
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 1.6133,
+                "cumulative_pollution_removal_kg": 4.0043,
+                "year": 2030
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 1.8414,
+                "cumulative_pollution_removal_kg": 4.5373,
+                "year": 2031
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 2.0695,
+                "cumulative_pollution_removal_kg": 5.0703,
+                "year": 2032
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 2.2976,
+                "cumulative_pollution_removal_kg": 5.6033,
+                "year": 2033
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 2.2976,
+                "cumulative_pollution_removal_kg": 5.6033,
+                "year": 2034
+            },
+            {
+                "cumulative_carbon_sequestered_ton": 2.2976,
+                "cumulative_pollution_removal_kg": 5.6033,
+                "year": 2035
+            }
+        ],
+        "trend_line_details": [
+            {
+                "carbon_sequestered_ton": 0.0117,
+                "cumulative_carbon_sequestered_ton": 0.0117,
+                "cumulative_clusters": 8,
+                "cumulative_pollution_removal_kg": 0.0273,
+                "month": "April",
+                "numberOfSGC": 8,
+                "pollution_removal_kg": 0.0273,
+                "year": 2024
+            },
+            {
+                "carbon_sequestered_ton": 0.0292,
+                "cumulative_carbon_sequestered_ton": 0.0409,
+                "cumulative_clusters": 28,
+                "cumulative_pollution_removal_kg": 0.0957,
+                "month": "May",
+                "numberOfSGC": 20,
+                "pollution_removal_kg": 0.0683,
+                "year": 2024
+            },
+            {
+                "carbon_sequestered_ton": 0.0322,
+                "cumulative_carbon_sequestered_ton": 0.0731,
+                "cumulative_clusters": 50,
+                "cumulative_pollution_removal_kg": 0.1708,
+                "month": "June",
+                "numberOfSGC": 22,
+                "pollution_removal_kg": 0.0752,
+                "year": 2024
+            },
+            {
+                "carbon_sequestered_ton": 0.0658,
+                "cumulative_carbon_sequestered_ton": 0.1389,
+                "cumulative_clusters": 95,
+                "cumulative_pollution_removal_kg": 0.3246,
+                "month": "August",
+                "numberOfSGC": 45,
+                "pollution_removal_kg": 0.1537,
+                "year": 2024
+            },
+            {
+                "carbon_sequestered_ton": 0.1974,
+                "cumulative_carbon_sequestered_ton": 0.3364,
+                "cumulative_clusters": 230,
+                "cumulative_pollution_removal_kg": 0.7858,
+                "month": "January",
+                "numberOfSGC": 135,
+                "pollution_removal_kg": 0.4612,
+                "year": 2025
+            },
+            {
+                "carbon_sequestered_ton": 0.0848,
+                "cumulative_carbon_sequestered_ton": 0.4212,
+                "cumulative_clusters": 288,
+                "cumulative_pollution_removal_kg": 0.984,
+                "month": "April",
+                "numberOfSGC": 58,
+                "pollution_removal_kg": 0.1982,
+                "year": 2025
+            },
+            {
+                "carbon_sequestered_ton": 0.019,
+                "cumulative_carbon_sequestered_ton": 0.4402,
+                "cumulative_clusters": 301,
+                "cumulative_pollution_removal_kg": 1.0284,
+                "month": "May",
+                "numberOfSGC": 13,
+                "pollution_removal_kg": 0.0444,
+                "year": 2025
+            }
+        ]
+    }
+}

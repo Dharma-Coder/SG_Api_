@@ -1,0 +1,257 @@
+HTTP/1.1 200 OK
+Date: Tue, 27 May 2025 06:07:05 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data:; style-src * 'unsafe-inline';
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: ALLOWALL
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=qroZd9FidB0NVHwHcaVpDQhUDgg%2ByItUR6%2Fgr2PRYsnISdquQPfo7LaP%2Fs2lJoYfIUziHKJ7opZP%2FkPynHIBqZjZtBe%2FY5IxYZ0P5A0Otdl1momWWmSoZLRfOkwuT5X0MHl62lfl8JByLPNrZdtuHQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 94635472df2b3aec-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=30536&min_rtt=28698&rtt_var=12075&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=940&delivery_rate=150533&cwnd=252&unsent_bytes=0&cid=8a1d8e9badb49408&ts=1403&x=0"
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    <meta name="viewport" content="width=device-width,                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <style>
+                #map_acb79812903aed4c4be0cfb56c728efa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
+  </head>
+  <body>
+    <div class="folium-map" id="map_acb79812903aed4c4be0cfb56c728efa"/>
+  </body>
+  <script>    
+    
+            var map_acb79812903aed4c4be0cfb56c728efa = L.map(
+                "map_acb79812903aed4c4be0cfb56c728efa",
+                {
+                    center: [43.839260304999996, -64.97844436],
+                    crs: L.CRS.EPSG3857,
+                    zoom: "17",
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0bfb8406474d44b34f15f6d525f390fd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        
+    
+            var marker_bae69dba55656d5854a0932766642d91 = L.marker(
+                [52.291995, -3.49735],
+                {}
+            ).addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        
+    
+            var icon_cbf20690fbfe05333f83475126c008f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "#44D09F", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_bae69dba55656d5854a0932766642d91.setIcon(icon_cbf20690fbfe05333f83475126c008f7);
+        
+    
+        var popup_80a4b002781a7c3240a8ee484be42dab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var i_frame_22ea602b12ac63676479a378bd833a00 = $(`&lt;iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PU1vbnRzZXJyYXQ6aXRhbCx3Z2h0QDAsMTAwOzAsMjAwOzAsMzAwOzAsNDAwOzAsNTAwOzAsNjAwOzAsNzAwOzAsODAwOzAsOTAwOzEsMTAwOzEsMjAwOzEsMzAwOzEsNDAwOzEsNTAwOzEsNjAwOzEsNzAwOzEsODAwOzEsOTAwJmFtcDtkaXNwbGF5PXN3YXAiIHJlbD0ic3R5bGVzaGVldCI+CiAgICAgICAgPGltZyAgaGVpZ2h0OmF1dG87IHdpZHRoPTEyNSBzcmM9Imh0dHBzOi8vYXBwbGljYXRpb24uc2FjcmVkZ3JvdmVzLmVhcnRoL2Fzc2V0cy9pbWcvaG9tZTEucG5nICI+CiAgICAgICAgPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsiPgogICAgICAgIDxoMiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC13ZWlnaHQ6NTUwOyBmb250LXNpemU6MjU7Ij4gIEdpZ3JpbiBQcnlzZyA8L2gyPgogICAgICAgIDxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtd2VpZ2h0OjU1MDsgZm9udC1zaXplOjE3OyBsaW5lLWhlaWdodDogMS4zIj4gQWRkcmVzczogPC9zdHJvbmc+IDxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXNpemU6MTc7Ij4gUmhheWFkZXIsIFBvd3lzLCBXYWxlcyBMRDYgNUJMLCBVbml0ZWQgS2luZ2RvbTwvc3Bhbj4gPGJyPgogICAgICAgIDxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtd2VpZ2h0OjU1MDsgZm9udC1zaXplOjE3OyBsaW5lLWhlaWdodDogMS44Ij5Mb2NhdGlvbjogPC9zdHJvbmc+IDxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXNpemU6MTc7Ij4gKDUyLjI5MTk5NSwgLTMuNDk3MzUpPC9zcGFuPiA8YnI+CiAgICAgICAgPHN0cm9uZyBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC13ZWlnaHQ6NTUwOyBmb250LXNpemU6MTc7IGxpbmUtaGVpZ2h0OiAxLjgiPkNhcmJvbiBTZXF1ZXN0ZXJlZCBvdmVyIDEwIHllYXJzOiA8L3N0cm9uZz4gPHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtc2l6ZToxNzsiPiA2MDIuNjc8L3NwYW4+IFRvbjxicj4KICAgICAgICA8c3Ryb25nIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXdlaWdodDo1NTA7IGZvbnQtc2l6ZToxNzsgbGluZS1oZWlnaHQ6IDEuOCI+UG9sbHV0aW9uIFJlbW92YWwgb3ZlciAxMCB5ZWFyczogPC9zdHJvbmc+IDxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXNpemU6MTc7Ij4gMSw0MDguNzY8L3NwYW4+IEtnPGJyPgogICAgICAgIDxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtd2VpZ2h0OjU1MDsgZm9udC1zaXplOjE3OyBsaW5lLWhlaWdodDogMS44Ij5Gb3Jlc3QgQXJlYTogPC9zdHJvbmc+IDxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXNpemU6MTc7Ij4gMTEuODwvc3Bhbj4gQWNyZQogICAgICAgIDwvZGl2PgogICAgCjxzdHlsZT4KCi8qIFNjcm9sbGJhciBTZXR0aW5ncyAqLwovKiB3aWR0aCAqLwo6Oi13ZWJraXQtc2Nyb2xsYmFyIHsKICB3aWR0aDogNHB4Owp9CgovKiBUcmFjayAqLwo6Oi13ZWJraXQtc2Nyb2xsYmFyLXRyYWNrIHsKICBiYWNrZ3JvdW5kOiAjZjFmMWYxOwp9CgovKiBIYW5kbGUgKi8KOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7CiAgYmFja2dyb3VuZDogIzQ0RDA5RjsKICBib3JkZXItcmFkaXVzOjJweDsKfQoKLyogSGFuZGxlIG9uIGhvdmVyICovCjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWI6aG92ZXIgewogIGJhY2tncm91bmQ6ICMwMzMwM0Q7Cn0KCgoubGVhZmxldC1jb250YWluZXIgYS5sZWFmbGV0LXBvcHVwLWNsb3NlLWJ1dHRvbiB7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICB0b3A6IDA7CiAgICByaWdodDogMDsKICAgIHBhZGRpbmc6IDRweCA0cHggMCAwOwogICAgYm9yZGVyOiBub25lOwogICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgd2lkdGg6IDE4cHg7CiAgICBoZWlnaHQ6IDE0cHg7CiAgICBmb250OiAxNnB4LzE0cHggVGFob21hLCBWZXJkYW5hLCBzYW5zLXNlcmlmOwogICAgY29sb3I6ICMwMzMwM0Q7CiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CiAgICBmb250LXdlaWdodDogYm9sZDsKICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50Owp9CgoKPC9zdHlsZT4=" width="450" style="border:none !important;" height="250"&gt;&lt;/iframe&gt;`)[0];
+                popup_80a4b002781a7c3240a8ee484be42dab.setContent(i_frame_22ea602b12ac63676479a378bd833a00);
+            
+        
+
+        marker_bae69dba55656d5854a0932766642d91.bindPopup(popup_80a4b002781a7c3240a8ee484be42dab)
+        ;
+
+        
+    
+    
+        function geo_json_13405dd6c87ea44411215bf6dc494abc_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#ffffff", "fillColor": "#00ff001C"};
+            }
+        }
+
+        function geo_json_13405dd6c87ea44411215bf6dc494abc_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_13405dd6c87ea44411215bf6dc494abc = L.geoJson(null, {
+                onEachFeature: geo_json_13405dd6c87ea44411215bf6dc494abc_onEachFeature,
+            
+                style: geo_json_13405dd6c87ea44411215bf6dc494abc_styler,
+        });
+
+        function geo_json_13405dd6c87ea44411215bf6dc494abc_add (data) {
+            geo_json_13405dd6c87ea44411215bf6dc494abc
+                .addData(data)
+                .addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        }
+            geo_json_13405dd6c87ea44411215bf6dc494abc_add({"features": [{"geometry": {"coordinates": [[[-3.49712, 52.29369], [-3.49719, 52.29362], [-3.49718, 52.29354], [-3.49739, 52.29326], [-3.49752, 52.29304], [-3.49819, 52.29242], [-3.49824, 52.29223], [-3.49861, 52.29203], [-3.49874, 52.29191], [-3.49889, 52.29181], [-3.49875, 52.2918], [-3.49911, 52.29163], [-3.49937, 52.29143], [-3.49961, 52.29128], [-3.49941, 52.29119], [-3.49935, 52.29108], [-3.49921, 52.29103], [-3.49906, 52.29088], [-3.49895, 52.29078], [-3.49884, 52.29057], [-3.49836, 52.29028], [-3.49816, 52.2904], [-3.49756, 52.29081], [-3.49728, 52.29107], [-3.49675, 52.2916], [-3.49652, 52.29177], [-3.49625, 52.29205], [-3.49601, 52.29235], [-3.49564, 52.29251], [-3.49542, 52.2926], [-3.49509, 52.29282], [-3.49525, 52.29302], [-3.49558, 52.29307], [-3.49588, 52.29328], [-3.49631, 52.29342], [-3.49658, 52.29353], [-3.49664, 52.29362], [-3.49691, 52.29371], [-3.49712, 52.29369]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            var tile_layer_c2e67133b9143b0d8b2d7204c66d7a54 = L.tileLayer(
+                "https://mt1.google.com/vt/lyrs=s\u0026x={x}\u0026y={y}\u0026z={z}",
+                {"attribution": "Google", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        
+    
+            var marker_4ebf7cb421b75914b7c855a3a0a96b1c = L.marker(
+                [51.70079, -4.274005],
+                {}
+            ).addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        
+    
+            var icon_87c75338c9bc2c16a33a4f08865caf5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "#44D09F", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_4ebf7cb421b75914b7c855a3a0a96b1c.setIcon(icon_87c75338c9bc2c16a33a4f08865caf5d);
+        
+    
+        var popup_dd83954d04f2489801bdd73354491017 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var i_frame_b3f81db2706d5694e1dc3bd66c4339f6 = $(`&lt;iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PU1vbnRzZXJyYXQ6aXRhbCx3Z2h0QDAsMTAwOzAsMjAwOzAsMzAwOzAsNDAwOzAsNTAwOzAsNjAwOzAsNzAwOzAsODAwOzAsOTAwOzEsMTAwOzEsMjAwOzEsMzAwOzEsNDAwOzEsNTAwOzEsNjAwOzEsNzAwOzEsODAwOzEsOTAwJmFtcDtkaXNwbGF5PXN3YXAiIHJlbD0ic3R5bGVzaGVldCI+CiAgICAgICAgPGltZyAgaGVpZ2h0OmF1dG87IHdpZHRoPTEyNSBzcmM9Imh0dHBzOi8vYXBwbGljYXRpb24uc2FjcmVkZ3JvdmVzLmVhcnRoL2Fzc2V0cy9pbWcvaG9tZTEucG5nICI+CiAgICAgICAgPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsiPgogICAgICAgIDxoMiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC13ZWlnaHQ6NTUwOyBmb250LXNpemU6MjU7Ij4gIENvZWQgUmh5YWwgPC9oMj4KICAgICAgICA8c3Ryb25nIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXdlaWdodDo1NTA7IGZvbnQtc2l6ZToxNzsgbGluZS1oZWlnaHQ6IDEuMyI+IEFkZHJlc3M6IDwvc3Ryb25nPiA8c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC1zaXplOjE3OyI+IEJ1cnJ5IFBvcnQsIExsYW5lbGxpIGFuZCBLaWR3ZWxseSwgQ2FybWFydGhlbnNoaXJlLCBXYWxlcyBTQTE2IDBKUywgVW5pdGVkIEtpbmdkb208L3NwYW4+IDxicj4KICAgICAgICA8c3Ryb25nIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXdlaWdodDo1NTA7IGZvbnQtc2l6ZToxNzsgbGluZS1oZWlnaHQ6IDEuOCI+TG9jYXRpb246IDwvc3Ryb25nPiA8c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC1zaXplOjE3OyI+ICg1MS43MDA3OSwgLTQuMjc0MDA1KTwvc3Bhbj4gPGJyPgogICAgICAgIDxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtd2VpZ2h0OjU1MDsgZm9udC1zaXplOjE3OyBsaW5lLWhlaWdodDogMS44Ij5DYXJib24gU2VxdWVzdGVyZWQgb3ZlciAxMCB5ZWFyczogPC9zdHJvbmc+IDxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXNpemU6MTc7Ij4gNjg4Ljk3PC9zcGFuPiBUb248YnI+CiAgICAgICAgPHN0cm9uZyBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC13ZWlnaHQ6NTUwOyBmb250LXNpemU6MTc7IGxpbmUtaGVpZ2h0OiAxLjgiPlBvbGx1dGlvbiBSZW1vdmFsIG92ZXIgMTAgeWVhcnM6IDwvc3Ryb25nPiA8c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC1zaXplOjE3OyI+IDEsNjEwLjQ4PC9zcGFuPiBLZzxicj4KICAgICAgICA8c3Ryb25nIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXdlaWdodDo1NTA7IGZvbnQtc2l6ZToxNzsgbGluZS1oZWlnaHQ6IDEuOCI+Rm9yZXN0IEFyZWE6IDwvc3Ryb25nPiA8c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC1zaXplOjE3OyI+IDEzLjMzPC9zcGFuPiBBY3JlCiAgICAgICAgPC9kaXY+CiAgICAKPHN0eWxlPgoKLyogU2Nyb2xsYmFyIFNldHRpbmdzICovCi8qIHdpZHRoICovCjo6LXdlYmtpdC1zY3JvbGxiYXIgewogIHdpZHRoOiA0cHg7Cn0KCi8qIFRyYWNrICovCjo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sgewogIGJhY2tncm91bmQ6ICNmMWYxZjE7Cn0KCi8qIEhhbmRsZSAqLwo6Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iIHsKICBiYWNrZ3JvdW5kOiAjNDREMDlGOwogIGJvcmRlci1yYWRpdXM6MnB4Owp9CgovKiBIYW5kbGUgb24gaG92ZXIgKi8KOjotd2Via2l0LXNjcm9sbGJhci10aHVtYjpob3ZlciB7CiAgYmFja2dyb3VuZDogIzAzMzAzRDsKfQoKCi5sZWFmbGV0LWNvbnRhaW5lciBhLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICAgIHRvcDogMDsKICAgIHJpZ2h0OiAwOwogICAgcGFkZGluZzogNHB4IDRweCAwIDA7CiAgICBib3JkZXI6IG5vbmU7CiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICB3aWR0aDogMThweDsKICAgIGhlaWdodDogMTRweDsKICAgIGZvbnQ6IDE2cHgvMTRweCBUYWhvbWEsIFZlcmRhbmEsIHNhbnMtc2VyaWY7CiAgICBjb2xvcjogIzAzMzAzRDsKICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwogICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7Cn0KCgo8L3N0eWxlPg==" width="450" style="border:none !important;" height="250"&gt;&lt;/iframe&gt;`)[0];
+                popup_dd83954d04f2489801bdd73354491017.setContent(i_frame_b3f81db2706d5694e1dc3bd66c4339f6);
+            
+        
+
+        marker_4ebf7cb421b75914b7c855a3a0a96b1c.bindPopup(popup_dd83954d04f2489801bdd73354491017)
+        ;
+
+        
+    
+    
+        function geo_json_62cdbb936a710ddf528c6f24fbf2499d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#ffffff", "fillColor": "#00ff001C"};
+            }
+        }
+
+        function geo_json_62cdbb936a710ddf528c6f24fbf2499d_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_62cdbb936a710ddf528c6f24fbf2499d = L.geoJson(null, {
+                onEachFeature: geo_json_62cdbb936a710ddf528c6f24fbf2499d_onEachFeature,
+            
+                style: geo_json_62cdbb936a710ddf528c6f24fbf2499d_styler,
+        });
+
+        function geo_json_62cdbb936a710ddf528c6f24fbf2499d_add (data) {
+            geo_json_62cdbb936a710ddf528c6f24fbf2499d
+                .addData(data)
+                .addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        }
+            geo_json_62cdbb936a710ddf528c6f24fbf2499d_add({"features": [{"geometry": {"coordinates": [[[-4.27451, 51.7013], [-4.27472, 51.7012], [-4.27494, 51.70108], [-4.27528, 51.70096], [-4.2756, 51.70078], [-4.27593, 51.70063], [-4.27619, 51.7005], [-4.27604, 51.70038], [-4.27614, 51.7002], [-4.27624, 51.70002], [-4.27656, 51.69995], [-4.27673, 51.69969], [-4.27685, 51.69936], [-4.27607, 51.6994], [-4.27534, 51.69926], [-4.27502, 51.69951], [-4.27471, 51.6997], [-4.27437, 51.69988], [-4.27404, 51.70002], [-4.27372, 51.70016], [-4.27339, 51.70031], [-4.27312, 51.70045], [-4.27288, 51.70059], [-4.27266, 51.70071], [-4.27242, 51.70081], [-4.27218, 51.7009], [-4.27185, 51.70102], [-4.27155, 51.70115], [-4.27124, 51.7013], [-4.27116, 51.70143], [-4.27129, 51.7016], [-4.27144, 51.70171], [-4.27173, 51.70189], [-4.27199, 51.70203], [-4.27223, 51.70218], [-4.27245, 51.70232], [-4.27262, 51.70221], [-4.27285, 51.70211], [-4.27307, 51.70201], [-4.27328, 51.70191], [-4.27355, 51.70181], [-4.27385, 51.70169], [-4.27409, 51.70155], [-4.27433, 51.70142], [-4.27451, 51.7013]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            var marker_832c168a71873d6e078027dc296346d2 = L.marker(
+                [43.839260304999996, -64.97844436],
+                {}
+            ).addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        
+    
+            var icon_5cda9653432c000ad648a343214ad3e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "#44D09F", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_832c168a71873d6e078027dc296346d2.setIcon(icon_5cda9653432c000ad648a343214ad3e5);
+        
+    
+        var popup_a8ca58de7532c1a22ce6996daedefabd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var i_frame_4f7f5a6a830aac6aaec2749a716d8b3b = $(`&lt;iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PU1vbnRzZXJyYXQ6aXRhbCx3Z2h0QDAsMTAwOzAsMjAwOzAsMzAwOzAsNDAwOzAsNTAwOzAsNjAwOzAsNzAwOzAsODAwOzAsOTAwOzEsMTAwOzEsMjAwOzEsMzAwOzEsNDAwOzEsNTAwOzEsNjAwOzEsNzAwOzEsODAwOzEsOTAwJmFtcDtkaXNwbGF5PXN3YXAiIHJlbD0ic3R5bGVzaGVldCI+CiAgICAgICAgPGltZyAgaGVpZ2h0OmF1dG87IHdpZHRoPTEyNSBzcmM9Imh0dHBzOi8vYXBwbGljYXRpb24uc2FjcmVkZ3JvdmVzLmVhcnRoL2Fzc2V0cy9pbWcvaG9tZTEucG5nICI+CiAgICAgICAgPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsiPgogICAgICAgIDxoMiBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC13ZWlnaHQ6NTUwOyBmb250LXNpemU6MjU7Ij4gIE9jZWFuIFNhbmN0dWFyeSA8L2gyPgogICAgICAgIDxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtd2VpZ2h0OjU1MDsgZm9udC1zaXplOjE3OyBsaW5lLWhlaWdodDogMS4zIj4gQWRkcmVzczogPC9zdHJvbmc+IDxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXNpemU6MTc7Ij4gT2NlYW4gU2FuY3R1YXJ5LCBMb3QgNDQsIE1jTGVhbnMgTGFrZSBSb2FkLCBXZXN0IFBvcnQgTOKAmUhlYmVydCwgU2hlbGJ1cm5lIENvdW50eSwgTm92YSBTY290aWEsIENhbmFkYTwvc3Bhbj4gPGJyPgogICAgICAgIDxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtd2VpZ2h0OjU1MDsgZm9udC1zaXplOjE3OyBsaW5lLWhlaWdodDogMS44Ij5Mb2NhdGlvbjogPC9zdHJvbmc+IDxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXNpemU6MTc7Ij4gKDQzLjgzOTI2MDMwNDk5OTk5NiwgLTY0Ljk3ODQ0NDM2KTwvc3Bhbj4gPGJyPgogICAgICAgIDxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtd2VpZ2h0OjU1MDsgZm9udC1zaXplOjE3OyBsaW5lLWhlaWdodDogMS44Ij5DYXJib24gU2VxdWVzdGVyZWQgb3ZlciAxMCB5ZWFyczogPC9zdHJvbmc+IDxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpNb250c2VycmF0OyBmb250LXNpemU6MTc7Ij4gNCwzODUuMDwvc3Bhbj4gVG9uPGJyPgogICAgICAgIDxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtd2VpZ2h0OjU1MDsgZm9udC1zaXplOjE3OyBsaW5lLWhlaWdodDogMS44Ij5Qb2xsdXRpb24gUmVtb3ZhbCBvdmVyIDEwIHllYXJzOiA8L3N0cm9uZz4gPHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtc2l6ZToxNzsiPiAxMCwyNTAuMDwvc3Bhbj4gS2c8YnI+CiAgICAgICAgPHN0cm9uZyBzdHlsZT0iZm9udC1mYW1pbHk6TW9udHNlcnJhdDsgZm9udC13ZWlnaHQ6NTUwOyBmb250LXNpemU6MTc7IGxpbmUtaGVpZ2h0OiAxLjgiPkZvcmVzdCBBcmVhOiA8L3N0cm9uZz4gPHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5Ok1vbnRzZXJyYXQ7IGZvbnQtc2l6ZToxNzsiPiA4My4yNDwvc3Bhbj4gQWNyZQogICAgICAgIDwvZGl2PgogICAgCjxzdHlsZT4KCi8qIFNjcm9sbGJhciBTZXR0aW5ncyAqLwovKiB3aWR0aCAqLwo6Oi13ZWJraXQtc2Nyb2xsYmFyIHsKICB3aWR0aDogNHB4Owp9CgovKiBUcmFjayAqLwo6Oi13ZWJraXQtc2Nyb2xsYmFyLXRyYWNrIHsKICBiYWNrZ3JvdW5kOiAjZjFmMWYxOwp9CgovKiBIYW5kbGUgKi8KOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7CiAgYmFja2dyb3VuZDogIzQ0RDA5RjsKICBib3JkZXItcmFkaXVzOjJweDsKfQoKLyogSGFuZGxlIG9uIGhvdmVyICovCjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWI6aG92ZXIgewogIGJhY2tncm91bmQ6ICMwMzMwM0Q7Cn0KCgoubGVhZmxldC1jb250YWluZXIgYS5sZWFmbGV0LXBvcHVwLWNsb3NlLWJ1dHRvbiB7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICB0b3A6IDA7CiAgICByaWdodDogMDsKICAgIHBhZGRpbmc6IDRweCA0cHggMCAwOwogICAgYm9yZGVyOiBub25lOwogICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgd2lkdGg6IDE4cHg7CiAgICBoZWlnaHQ6IDE0cHg7CiAgICBmb250OiAxNnB4LzE0cHggVGFob21hLCBWZXJkYW5hLCBzYW5zLXNlcmlmOwogICAgY29sb3I6ICMwMzMwM0Q7CiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CiAgICBmb250LXdlaWdodDogYm9sZDsKICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50Owp9CgoKPC9zdHlsZT4=" width="450" style="border:none !important;" height="250"&gt;&lt;/iframe&gt;`)[0];
+                popup_a8ca58de7532c1a22ce6996daedefabd.setContent(i_frame_4f7f5a6a830aac6aaec2749a716d8b3b);
+            
+        
+
+        marker_832c168a71873d6e078027dc296346d2.bindPopup(popup_a8ca58de7532c1a22ce6996daedefabd)
+        ;
+
+        
+    
+    
+        function geo_json_e84cb5a47e5d5bcf57455baba8da9f53_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#ffffff", "fillColor": "#00ff001C"};
+            }
+        }
+
+        function geo_json_e84cb5a47e5d5bcf57455baba8da9f53_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_e84cb5a47e5d5bcf57455baba8da9f53 = L.geoJson(null, {
+                onEachFeature: geo_json_e84cb5a47e5d5bcf57455baba8da9f53_onEachFeature,
+            
+                style: geo_json_e84cb5a47e5d5bcf57455baba8da9f53_styler,
+        });
+
+        function geo_json_e84cb5a47e5d5bcf57455baba8da9f53_add (data) {
+            geo_json_e84cb5a47e5d5bcf57455baba8da9f53
+                .addData(data)
+                .addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        }
+            geo_json_e84cb5a47e5d5bcf57455baba8da9f53_add({"features": [{"geometry": {"coordinates": [[[-64.99118978, 43.83235126], [-64.9913996, 43.83224341], [-64.99145883, 43.832273], [-64.99152144, 43.83232674], [-64.99160957, 43.83245233], [-64.99167223, 43.83251507], [-64.99172278, 43.83261386], [-64.99173532, 43.83263183], [-64.99176074, 43.83268577], [-64.99176165, 43.83280271], [-64.99178719, 43.83288816], [-64.99181253, 43.8329375], [-64.99180128, 43.83308158], [-64.99181447, 43.83317156], [-64.99180224, 43.83320761], [-64.99174081, 43.83329791], [-64.99167886, 43.83331618], [-64.99162914, 43.83331714], [-64.99157947, 43.83333457], [-64.9915549, 43.83336993], [-64.99143094, 43.83341621], [-64.99123219, 43.83343507], [-64.99115758, 43.83343538], [-64.99113266, 43.83342654], [-64.99109512, 43.83340865], [-64.9909951, 43.83333711], [-64.99097008, 43.83331017], [-64.99094503, 43.83330133], [-64.99089524, 43.83329257], [-64.99072056, 43.83321224], [-64.99069563, 43.8332034], [-64.99062059, 43.8331497], [-64.99058306, 43.8331318], [-64.99054555, 43.83309599], [-64.99049558, 43.83307822], [-64.99045844, 43.83308733], [-64.99042124, 43.83310554], [-64.99035949, 43.83315983], [-64.99027276, 43.83319618], [-64.99013667, 43.83327778], [-64.99008735, 43.83333203], [-64.9900874, 43.83334104], [-64.99007519, 43.83335908], [-64.99008815, 43.83343097], [-64.99008853, 43.83347598], [-64.99012632, 43.83353889], [-64.99011416, 43.83356593], [-64.99011459, 43.83361994], [-64.99009009, 43.83366503], [-64.99009099, 43.83378206], [-64.99007883, 43.8338091], [-64.99007911, 43.83383611], [-64.99005439, 43.83386319], [-64.99000262, 43.83386696], [-64.98986406, 43.83384314], [-64.98972127, 43.8338497], [-64.98963182, 43.83386785], [-64.98959733, 43.8338962], [-64.98955252, 43.83392621], [-64.98950823, 43.83398254], [-64.98943399, 43.83402786], [-64.98940944, 43.83406394], [-64.98937283, 43.83414516], [-64.98924895, 43.83420873], [-64.98924933, 43.83425374], [-64.98929972, 43.83432552], [-64.98930891, 43.83433209], [-64.98932196, 43.83433132], [-64.98937492, 43.83440614], [-64.98938763, 43.83443311], [-64.98938838, 43.83452313], [-64.98940097, 43.8345501], [-64.98941405, 43.83462199], [-64.9894197, 43.83465869], [-64.98943544, 43.83465863], [-64.9894497, 43.83466962], [-64.98945831, 43.8346627], [-64.98947116, 43.83466174], [-64.98947443, 43.83466788], [-64.98946632, 43.83467581], [-64.9894706, 43.83468388], [-64.98947696, 43.83468804], [-64.98948995, 43.83469837], [-64.98950977, 43.8347089], [-64.9895067, 43.83472555], [-64.98947708, 43.83472855], [-64.98947102, 43.83474901], [-64.98948178, 43.83476477], [-64.98947485, 43.83478104], [-64.9894994, 43.83481372], [-64.97073218, 43.84426294], [-64.97076164, 43.84405246], [-64.97076028, 43.84389042], [-64.97077445, 43.84370881], [-64.97081736, 43.8436989], [-64.97082785, 43.84366592], [-64.97081759, 43.84361987], [-64.97075413, 43.84361882], [-64.97066858, 43.84364146], [-64.97063416, 43.84365688], [-64.97052195, 43.84363037], [-64.97043443, 43.84356768], [-64.97035966, 43.84354106], [-64.97030401, 43.84352924], [-64.97027264, 43.8435504], [-64.97024803, 43.84357747], [-64.97039116, 43.84369629], [-64.97043588, 43.84374773], [-64.97044797, 43.8437908], [-64.97039312, 43.84380836], [-64.9703989, 43.84386874], [-64.97042642, 43.84391181], [-64.97044941, 43.84394753], [-64.97046503, 43.84396075], [-64.97050359, 43.84396604], [-64.97051683, 43.84398704], [-64.97050472, 43.8440039], [-64.97049938, 43.8440263], [-64.97050364, 43.84408387], [-64.97046304, 43.84410939], [-64.97045118, 43.84419396], [-64.97041256, 43.84424015], [-64.97034771, 43.84426643], [-64.97027919, 43.84430011], [-64.97022421, 43.84434486], [-64.97017984, 43.84439689], [-64.97011837, 43.84448708], [-64.97005736, 43.84464038], [-64.97000775, 43.84466762], [-64.96991736, 43.84468818], [-64.96953646, 43.84472145], [-64.96922025, 43.84479578], [-64.9689732, 43.84489786], [-64.96885056, 43.84493], [-64.96866021, 43.84502404], [-64.96851518, 43.84516], [-64.96847987, 43.84518517], [-64.96841783, 43.8452502], [-64.96832633, 43.84543261], [-64.96817674, 43.8455025], [-64.96806227, 43.84551989], [-64.96797969, 43.84548576], [-64.96788613, 43.84540893], [-64.96795165, 43.84532495], [-64.96795174, 43.84518186], [-64.96791001, 43.84517813], [-64.96784202, 43.84521232], [-64.96775907, 43.84524643], [-64.96772431, 43.84531555], [-64.96773594, 43.84538901], [-64.96779465, 43.84542599], [-64.96786054, 43.84544183], [-64.96796862, 43.84552625], [-64.9679875, 43.84557938], [-64.96796776, 43.84562529], [-64.96789962, 43.84568195], [-64.96783684, 43.84572253], [-64.96773156, 43.84573946], [-64.96768171, 43.84577107], [-64.96768745, 43.84581597], [-64.96769468, 43.84583448], [-64.96763573, 43.84590316], [-64.96756078, 43.84591274], [-64.96749624, 43.84588686], [-64.96739473, 43.84587115], [-64.96733293, 43.84584871], [-64.96730532, 43.84582572], [-64.96731766, 43.84576775], [-64.96732243, 43.84570423], [-64.96733353, 43.8456521], [-64.96733157, 43.84559563], [-64.96730951, 43.84556928], [-64.96727277, 43.84553369], [-64.96722214, 43.84549713], [-64.96712776, 43.84544779], [-64.96703008, 43.84543605], [-64.96700263, 43.84543742], [-64.96695647, 43.84543558], [-64.96691399, 43.84543604], [-64.96685612, 43.84544394], [-64.96680642, 43.84545308], [-64.96677558, 43.84546711], [-64.96673366, 43.84549749], [-64.96670874, 43.84552536], [-64.96669124, 43.84555869], [-64.96665615, 43.84560038], [-64.96662662, 43.84564012], [-64.96662623, 43.84566011], [-64.96664817, 43.845701], [-64.96664972, 43.84570944], [-64.96664184, 43.84571942], [-64.9666333, 43.84572551], [-64.96662723, 43.84574354], [-64.96662129, 43.84577811], [-64.96662208, 43.84588759], [-64.96659765, 43.84595068], [-64.96656087, 43.84600488], [-64.96656132, 43.8460679], [-64.96652451, 43.84614002], [-64.9664998, 43.84614909], [-64.96641282, 43.84616751], [-64.96633824, 43.84617681], [-64.96626387, 43.84620411], [-64.96622677, 43.84622221], [-64.9661896, 43.84624941], [-64.96610274, 43.84626775], [-64.96600328, 43.8462772], [-64.96595348, 43.84626833], [-64.96590346, 43.84624155], [-64.96587167, 43.8462042], [-64.96584544, 43.84616079], [-64.96586175, 43.84614666], [-64.96591523, 43.84615051], [-64.96594905, 43.84613643], [-64.96595857, 43.84611111], [-64.96594222, 43.84609078], [-64.96590977, 43.84608729], [-64.96590319, 43.84606472], [-64.96592287, 43.84605133], [-64.96596979, 43.84604738], [-64.96600108, 43.84599813], [-64.9659758, 43.84594427], [-64.96595078, 43.84591733], [-64.96592367, 43.84586171], [-64.96585069, 43.84585477], [-64.9657832, 43.84587125], [-64.96575219, 43.84585949], [-64.96574362, 43.84582997], [-64.96570596, 43.84581332], [-64.96565495, 43.84584024], [-64.965599, 43.8458081], [-64.96560132, 43.84576578], [-64.96558884, 43.84575682], [-64.96557618, 43.84573885], [-64.96550141, 43.84571213], [-64.96546405, 43.84570332], [-64.96531469, 43.8456859], [-64.96520238, 43.84564138], [-64.96509003, 43.84558785], [-64.96507425, 43.84558219], [-64.99118978, 43.83235126]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            L.control.fullscreen(
+                {"forceSeparateButton": false, "position": "topleft", "title": "Full Screen", "titleCancel": "Exit Full Screen"}
+            ).addTo(map_acb79812903aed4c4be0cfb56c728efa);
+        
+</script>
+</html>

@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 07:53:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f8d27ffddc424e-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"28f-lXqDmtk63l1R/R18O7qB92GBe0E"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=YrVxGV3BGpXBuHilyQy82fvoqt%2FvBbj9TcRBaNKSv%2B737dMkt9c%2Bmmp1BEWQBrVHRo1N5JDJivbgOP9aWrQ19Iw%2FUzdXJAugu0Wv8QWL7%2BfhZvj5hnwBip521Rv6vLaCesLe8aoFuq6PETtZg%2Bmmuw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=19665&min_rtt=18674&rtt_var=8984&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=1406&delivery_rate=162393&cwnd=219&unsent_bytes=0&cid=e7f4255aa74bfa74&ts=89&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "user_id": "0067e96f-2f47-4d8f-864a-0906d54173ad",
+        "email": "adreno2@mailinator.com",
+        "country_code": "+1",
+        "phone_number": "5714788202",
+        "password": "$2a$10$o5k6IAWQz31LsK9nv2iaC.LzoDY4nEK75FbGmZNgf3B1rV2E7cGa.",
+        "is_email_verified": 0,
+        "is_phone_verified": 1,
+        "o_auth": null,
+        "is_active": 1,
+        "private": 0,
+        "california_resident": 1,
+        "email_preference": 1,
+        "ctn": "0067e96f-2f47-4d8f-864a-0906d54173ad",
+        "created_on": "09/13/2022",
+        "first_name": "Ankit",
+        "middle_name": null,
+        "last_name": "Nayak",
+        "title": "Mr.",
+        "gender": null,
+        "img_url": null,
+        "dob": null,
+        "score": 5028430,
+        "address": null,
+        "state": null,
+        "city": null,
+        "zip": null,
+        "country": null,
+        "user_type": 1,
+        "user_level": 409.3
+    }
+}

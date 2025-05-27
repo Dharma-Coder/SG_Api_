@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 08:27:35 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f904683c078595-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Yd8%2FqXoFmVK8zmEUW%2B1zIoWuKxGgSdHtDtIw53D83lAZ6EUh3JKV5ld%2B%2BMr8%2BCufn211CgCJfqaGKrWIManZN%2BdbE7Wr3vwzSYPLBfgNGlOhwcccL72oI1dt9BxV0guCy7Ca%2FLJ5L9fG%2Bt0h5WBigJU%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=20666&min_rtt=20441&rtt_var=8116&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=986&delivery_rate=194200&cwnd=252&unsent_bytes=0&cid=0772aac8c3fd5c42&ts=272&x=0"
+
+{
+    "cluster_ownership_details_by_forest_id": [
+        {
+            "forest_id": "CAN_OCEA_00003",
+            "number_of_clusters": 215
+        },
+        {
+            "forest_id": "UNI_COED_00002",
+            "number_of_clusters": 495
+        },
+        {
+            "forest_id": "UNI_GIGR_00001",
+            "number_of_clusters": 902
+        }
+    ],
+    "status": "OK"
+}

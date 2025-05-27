@@ -1,0 +1,54 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 05:34:18 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f80694e9ea3a36-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"111-diN6W3T5JD3f37OC6nLfUQruxZY"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=b4YfkT%2F2n%2F7tp9bY7a7c6I8dQb9Q4YrjgymMLdJc4s6wO8TPvrBYdmYfkHh%2FRoK6xplpkdiTJKxRSbgI20R7H1QlCCTmUR1PxMazMiQ41Xmtg7QnXD%2BcKi3BtINTNSoB%2F%2FDOPLTv7CfBG3cgm0xtsg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=23375&min_rtt=18145&rtt_var=10540&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=861&delivery_rate=238082&cwnd=251&unsent_bytes=0&cid=c20d93113e4939eb&ts=103&x=0"
+
+{
+    "success": 1,
+    "data": [
+        {
+            "type_id": 1,
+            "name": "person",
+            "property": "A single user not registering as a part of any organization"
+        },
+        {
+            "type_id": 2,
+            "name": "#$@#",
+            "property": "#@@#"
+        },
+        {
+            "type_id": 3,
+            "name": "",
+            "property": ""
+        },
+        {
+            "type_id": 4,
+            "name": "<type name>",
+            "property": "<type-property>"
+        }
+    ]
+}

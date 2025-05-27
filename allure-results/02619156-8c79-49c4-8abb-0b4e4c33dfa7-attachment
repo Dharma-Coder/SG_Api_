@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 06:27:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f855348f743b1b-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ZvdI%2FE3xejZgy2M4ofI3XX%2F0f8qTzXthKz29M0KMOprkTmotT034jf%2F%2F%2FH7ZMOkj9tLAfITPvKqpzgFmP%2BIYvKZpQHOSGup6X9AffnS5I5qD8nyaj%2FBJ47bR8Lbnl00Xe6FDPgZvHyrjDmTnopcre550"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=32440&min_rtt=32255&rtt_var=12466&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=958&delivery_rate=128053&cwnd=249&unsent_bytes=0&cid=7e79629a332e5608&ts=155&x=0"
+
+{
+    "data": {
+        "giftSent": 984,
+        "giftRecieved": 1044,
+        "pendingGiftAsTaker": 4,
+        "pendingGiftAsGiver": 4,
+        "status": "SUCCESS",
+        "description": "Transaction successfull"
+    },
+    "status": true
+}

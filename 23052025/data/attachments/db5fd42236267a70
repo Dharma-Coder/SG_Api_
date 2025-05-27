@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 05:36:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f809ad3cd83fae-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"288-yMdqK9oGz87HGyc3YI4wJHP2wT8"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=vijbkg74cuctvg4K%2BKZCV7GkCG8hRVS7iwtRIon6qrO0Yx8AmnuL2k51FxLzFpoHOZS7KyFL3TOR60VinKM2p3Ch6Wh1MTTKfOwjOa2vRvwe67hLmJ%2FfH999EZWsPQCZuIZckfuMN45oZMeBuOFJow%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=28944&min_rtt=28726&rtt_var=11209&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=1398&delivery_rate=141760&cwnd=252&unsent_bytes=0&cid=7db1cd03ef3cb52b&ts=106&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "user_id": "803bba50-7577-4010-a9af-85bae524959b",
+        "email": "praveenpotla@frugaltestingin.com",
+        "country_code": "+91",
+        "phone_number": "8567094319",
+        "password": "$2a$10$H7Cp1QcyoNs4KarBmWBbS.qjje5tcMbdQMupdnqNeaCSTBt/mY9aO",
+        "is_email_verified": 0,
+        "is_phone_verified": 1,
+        "o_auth": null,
+        "is_active": 1,
+        "private": 0,
+        "california_resident": 0,
+        "email_preference": 1,
+        "ctn": "803bba50-7577-4010-a9af-85bae524959b",
+        "created_on": "04/01/2024",
+        "first_name": "Dharma",
+        "middle_name": "",
+        "last_name": "Test",
+        "title": "Mr.",
+        "gender": "M",
+        "img_url": "",
+        "dob": null,
+        "score": 56890,
+        "address": "",
+        "state": "",
+        "city": "",
+        "zip": "",
+        "country": "",
+        "user_type": 1,
+        "user_level": 11.6
+    }
+}

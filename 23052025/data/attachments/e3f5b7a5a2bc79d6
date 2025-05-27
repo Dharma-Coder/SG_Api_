@@ -1,0 +1,124 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 06:27:57 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f85528792e4087-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"3ff-smDbcdYz+yHHnyXm9K4DpbOHc9Y"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=LZ80vMxOYgNUY8l3k%2B2CSgu1r41p1NdW778XSEvi7OGgeeQdzlb0rnZj17Q%2FXx29Nn7xG0K11%2B1pqGvoHHOE2lDSINaOeB2cCZ4ZM9HS7qivNvs9KzOimSlKe%2BSjWw%2BJY5GLopuj0cWkvEVdlmhy%2BQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=20576&min_rtt=20547&rtt_var=7764&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=1085&delivery_rate=207852&cwnd=249&unsent_bytes=0&cid=219306f055163f9d&ts=561&x=0"
+
+{
+    "success": 1,
+    "data": [
+        {
+            "gameid": 1,
+            "activity": "purchase sgcs",
+            "effect": 0,
+            "timereq": 50,
+            "money": 100,
+            "effort": 50,
+            "impact": 300
+        },
+        {
+            "gameid": 2,
+            "activity": "gift sgcs",
+            "effect": 50,
+            "timereq": 10,
+            "money": 100,
+            "effort": 30,
+            "impact": 290
+        },
+        {
+            "gameid": 3,
+            "activity": "create squad",
+            "effect": 80,
+            "timereq": 20,
+            "money": 0,
+            "effort": 40,
+            "impact": 140
+        },
+        {
+            "gameid": 4,
+            "activity": "join squad",
+            "effect": 20,
+            "timereq": 10,
+            "money": 0,
+            "effort": 10,
+            "impact": 40
+        },
+        {
+            "gameid": 5,
+            "activity": "link social accounts",
+            "effect": 60,
+            "timereq": 10,
+            "money": 0,
+            "effort": 20,
+            "impact": 90
+        },
+        {
+            "gameid": 6,
+            "activity": "complete profile",
+            "effect": 20,
+            "timereq": 40,
+            "money": 0,
+            "effort": 40,
+            "impact": 100
+        },
+        {
+            "gameid": 7,
+            "activity": "sync contact",
+            "effect": 60,
+            "timereq": 10,
+            "money": 0,
+            "effort": 30,
+            "impact": 100
+        },
+        {
+            "gameid": 8,
+            "activity": "invite friends",
+            "effect": 20,
+            "timereq": 10,
+            "money": 0,
+            "effort": 20,
+            "impact": 50
+        },
+        {
+            "gameid": 9,
+            "activity": "like and share",
+            "effect": 20,
+            "timereq": 10,
+            "money": 0,
+            "effort": 40,
+            "impact": 70
+        },
+        {
+            "gameid": 10,
+            "activity": "create rooms",
+            "effect": 30,
+            "timereq": 10,
+            "money": 0,
+            "effort": 10,
+            "impact": 50
+        }
+    ]
+}

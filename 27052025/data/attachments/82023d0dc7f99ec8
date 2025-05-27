@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 07:55:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f8d5c95a844010-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+Etag: W/"18c-v5BFYmqb2jGw3kcRnjw9tKIkZws"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Yn55%2B3ihoZaYHP3IBuR5Eus9vSbEaTBqtZR9AjGdzcoIItNX%2F4%2BG7oaKk5CUxYx0nGfVPmi1AUQREtvurHR%2FVBQ0DMuR%2FyHx4%2FUQ6U2eulMSlpyVv4CTscynDIHWi4oKOv%2F2XPDD0poImXRC7k8Ahg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=32169&min_rtt=29765&rtt_var=12879&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=974&delivery_rate=145136&cwnd=247&unsent_bytes=0&cid=14ba40f8a2fa5322&ts=533&x=0"
+
+{
+    "success": 1,
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsiY291bnRyeV9jb2RlIjoiOTEiLCJwaG9uZV9udW1iZXIiOiI4ODUwMTE5MjExIiwibmV3VXNlciI6InRydWUiLCJjb2RlIjoiMTIzNCIsInBhc3N3b3JkIjoiJDJhJDEwJDNWS0JPNVp3WkZlM09RRVNtRlB3SE9wVndjc0NvaFphd29ELzVLNzNNdXYvU2MycW9YaEVHIiwic3RhdHVzIjoiYXBwcm92ZWQifSwiaWF0IjoxNzQ3MjA5MzQ1LCJleHAiOjE3NDk4MDEzNDV9.O9JcjW5cu8qxu8HaJD5DnfGy3BrjBW3p0yEOPg8hRmo"
+}

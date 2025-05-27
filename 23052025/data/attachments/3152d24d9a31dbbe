@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 07:53:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93f8d268d9538584-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Xss-Protection: 0
+Credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 3
+X-Ratelimit-Reset: 1747209218
+Etag: W/"1f6-n7PVTJTLEpLx6ChZlr6jhvMOoko"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Yy%2FUBjyYPIxqHtM7UO04P5ZKF3JyrbEAdxcNa5YAm0%2Bo7jA1rOjQ78Zr4vhUMNeREBHZFTDrWpL8xpUJk0ZnsR%2B00WAUlgOsxEPx%2F0IwfFXpf30gBgTrsXCm23digCJriP1qJPDCXpeSdX9AQHkDRw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server-timing: cfL4;desc="?proto=TCP&rtt=14958&min_rtt=14952&rtt_var=5619&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=952&delivery_rate=287980&cwnd=251&unsent_bytes=0&cid=165a0765dfbb308a&ts=551&x=0"
+
+{
+    "success": 1,
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6ImZkZmI1ZjJjLTQzZDAtNGM5Yi04M2MwLWI3MDNiNWQ5OWQzZSIsImN0biI6ImZkZmI1ZjJjLTQzZDAtNGM5Yi04M2MwLWI3MDNiNWQ5OWQzZSIsImVtYWlsIjoiZGhhcm1hQGZydWdhbHRlc3RpbmcuY29tIiwiY291bnRyeV9jb2RlIjoiKzkxIiwicGhvbmVfbnVtYmVyIjoiOTU1MDgyMTE2NyIsInBhc3N3b3JkIjoiJDJhJDEwJERmZFZQV3J4bjRuVmFyc2FlRTl3b09LMm5wZTY1VFhmd3NRcDZldWc1ZGFjQzNzdU45Yi9TIn0sImlhdCI6MTc0NzIwOTIwNywiZXhwIjoxNzc4NzQ1MjA3fQ.pgdgu1-NvYAYAvJBrNzRKAZbrnPkyL6Zm24MqGdjxbs"
+}

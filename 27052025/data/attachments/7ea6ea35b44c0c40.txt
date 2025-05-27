@@ -1,0 +1,12 @@
+Request method:	DELETE
+Request URI:	https://devoutshade.sacredgroves.earth/api/admins/user/586717a0-2370-4590-9882-d66335cc27fe
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=586717a0-2370-4590-9882-d66335cc27fe
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6IkFkbWluIiwicGFzc3dvcmQiOiJGb3VuZGVyc0AxTWlsbGlvbkFjcmVzIn0sImlhdCI6MTc0NzIwNDA0M30.xPyrHC7BMMVfbEgLIw3HnR2lRE7HgQdptCKuxLE_fqw
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,13 @@
+Request method:	POST
+Request URI:	https://devanalytics.sacredgroves.earth/api/clustermgmt/forest/details/view/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"forest_id":UNI_COED_00002,"page_number":1}

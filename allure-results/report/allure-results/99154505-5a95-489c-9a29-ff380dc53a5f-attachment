@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 07:58:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+X-RateLimit-Limit: 3
+X-RateLimit-Remaining: 1
+X-RateLimit-Reset: 1745903085
+ETag: W/"20-irvcOA0NKrbWxR5g4A6KKFLxjpA"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=RqDegeha%2FCGHTlWn8rpSnOPcPY6FMX847I7E0Onlb50JkP7na8NB2EVhcj7s6BpaNF9X0wULlsfUonhgD8vIXd12okbcruaNivWoYkShbZ%2FYCXqKSMlVRF0RoRUJgc3cAA2CLntmXNO0pbDobUWXZA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 937503d429e14016-BOM
+server-timing: cfL4;desc="?proto=TCP&rtt=22422&min_rtt=20024&rtt_var=9222&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=951&delivery_rate=215741&cwnd=251&unsent_bytes=0&cid=222d48abaa597430&ts=257&x=0"
+
+{
+    "success": 1,
+    "status": "pending"
+}
